@@ -1,0 +1,768 @@
+CaratSense | Discovery Questionnaire 
+Confidential — Page 1 
+ 
+ 
+ 
+To accurately configure the platform, import your existing data, and design 
+workflows that match how your team operates. Please answer as specifically as 
+possible — even partial answers are helpful. 
+ 
+ 
+ 
+ 
+ 
+ 
+C A R A T S E N S E 
+Surplus Stock Platform 
+ 
+ 
+ 
+Client Discovery Questionnaire 
+Confidential 
+ 
+ 
+ 
+ 
+ 
+ 
+Client Name – ASHISH CHHABRA 
+Contact Person 
+Date 
+Completed By 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q1. Current Stock Snapshot 
+Can you provide an up-to-date stock list in Excel with the following columns? 
+• 
+Article code 
+• 
+Meters available 
+• 
+Rack / location 
+• 
+Quality category 
+ 
+ 
+ 
+ 
+Q2. Warehouse Layout 
+From the rack data we have, we can see hall numbers ranging from the 101 to 1001 series. Are there any additional 
+locations we should map into the system? 
+• 
+Additional floors 
+• 
+Offsite storage locations 
+• 
+External godowns 
+ 
+ 
+ 
+ 
+Q3. Rack Allocation Rules 
+What logic determines which goods are stored on which rack? For example: Lycra in one section, white fabrics 
+separately, drill separately. Please describe your current rules so we can configure the Rack Master correctly. 
+ 
+ 
+ 
+ 
+Q4. Stock Classification 
+We currently have 6 stock types defined. Are these accurate for your operations, or do any need to be renamed, 
+merged, or added to? 
+• 
+Dead Stock 
+• 
+Off-Shade 
+ 
+ 
+SECTION A — INVENTORY & WAREHOUSE 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 3 
+ 
+ 
+ 
+ 
+ 
+• 
+Mill Seconds 
+• 
+Remnants 
+• 
+Surplus 
+• 
+Manufactured 
+ 
+ 
+ 
+ 
+Q5. Defect Logging 
+For off-shade or mill-seconds material, do you record the specific defect anywhere — for example, "2 shades dark" 
+or "knot every 20 meters"? Or is classification tracked only at the category level? 
+ 
+ 
+ 
+ 
+Q6. Bale Identification 
+Are bales currently tagged with any barcode, QR code, or physical label? If not, should the plaVorm support 
+barcode scanning in the future? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 4 
+ 
+ 
+ 
+ 
+ 
+ 
+Q7. Busy Export — Frequency & Method 
+Is the Busy data export done manually or automatically? How oken is it currently run? Can it realistically be done 
+on a daily basis? 
+ 
+ 
+ 
+ 
+Q8. Product Code Structure 
+From your packing list, we see product codes formatted as shown below. Please explain what each segment means 
+so we can build the data parser correctly. 
+ 
+ 
+ 
+ 
+ 
+ 
+10828 
+ 
+MOK 
+NOT NEEDED IT IS MILL CODE FOR MILLS REFERENCE MAYBE. NOT USED BY 
+US 
+ST-NF 
+ 
+RFD0000000 
+ 
+LY-DRILL 
+ 
+ 
+ 
+ 
+ 
+Q9. Grey vs. Dyed — Operations 
+We can see separate data sheets for Grey and Dyed stock in your Busy exports. 
+• 
+Are these handled by the same team or different teams? 
+SECTION B — BUSY ACCOUNTING INTEGRATION 
+10828 - MOK - ST-NF - RFD0000000 - LY-DRILL 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 5 
+ 
+ 
+ 
+• 
+Do they share the same buyer pool, or are the buyers entirely separate? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q10. Buyer Contact Master 
+Do you have a consolidated list of buyer contact information — phone numbers, WhatsApp, and email addresses? 
+• 
+Is it stored in Busy, an Excel sheet, or only in individual salespeople’s phones? 
+• 
+Can it be exported? 
+ 
+ 
+ 
+ 
+Q11. Sales Team & Territory 
+Please provide the following details about your team: 
+• 
+How many salespeople are on the team? 
+• 
+Names and which buyers or geographic areas each person handles 
+• 
+Who are the warehouse staff? 
+• 
+Who is the business owner? 
+ 
+ 
+ 
+Q12. Buyer–Salesperson Assignment 
+Is each buyer always handled by a single designated salesperson, or can multiple people contact the same buyer? 
+Does the assignment change over time? 
+ 
+ 
+ 
+ 
+Q13. Payment Terms 
+Do you track credit days on a per-buyer basis (e.g., Buyer A gets 30 days, Buyer B is cash-only)? 
+• 
+Should the platform display outstanding balances? 
+• 
+Should the platform flag overdue accounts? 
+ 
+ 
+ 
+ 
+ 
+SECTION C — BUYERS & SALES TEAM 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q14. Pricing Logic 
+How is the selling price determined for surplus stock? 
+• 
+Fixed markup 
+• 
+Current market rate 
+• 
+Negotiated on a per-buyer basis 
+• 
+Who has the authority to set or change a price? 
+ 
+ 
+ 
+Q15. Markdown Decisions 
+For slow-moving stock, who decides to reduce the price — only the owner, or can salespeople propose markdowns? 
+Should the plaVorm include an approval workflow for price reductions? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 8 
+ 
+ 
+PACKING LIST – FOREMOST WE RECEIVE PACKING LIST IN EXCEL FORMAT FROM THE MILL . THEN WE ADD THIS DATA ON 
+GOOGLE SHEETS FOR EVERYONE TO ACCESS. WE CURRENTLY USE VLOOKUP TO MATCH ARTICLE NUMBER AND ADD THE 
+QUALITY LIKE LY DRILL POPLIN ON THE SHEET. ONCE THIS GETS DONE THEN WE SELECT EACH CATEGORY AND PUT RACK 
+NUMBER NEXT TO IT. AFTER ALL THE RACK NUMBERS ARE SET THE SHEET IS READY.  
+PHYSICAL ARRIVAL OF TRUCK – NOW WE RECEIVE THE DISPATCH PHYSICALLY. WE START UNLOADING THE GOODS AND 
+THEY ARE KEPT IN AN OPEN AREA IN OUR GODOWN, ALL THE GOODS ARE MIXED RIGHT NOW AS A TRUCK HAS FOR EG 
+30,000 METERS ALL DIFFERENT QUALITY ROLLS. WHEN THE TRUCK GETS UNLOADED, WE START SORTING THE QUALITIES 
+OUT.  
+SORTING THE GOODS – NOW IS THE TIME TO USE THE SHEETS TO SORT GOODS QUALITY WISE. A PERSON HOLDS THE 
+PHYSUCAL ROL LAND READ OUT BALE NYUMBER MENTIONED ON THE STICKER/TAG. THAT BALE IS ENTERED IN THE 
+GOOGLE SHEET USING FIND FUNCTION AND THEN THE PERSON ON COMPUTER SAY ALOUD THE RACK NUMBER THAT IS 
+MENTION ON SHEET FOR THAT PARTICULAR ROLL. HE ALSO WRITES IT AGAIN IN A COLUMN TO DENOTE THAT THIS ROLL 
+HAS BEEN CHECKED. NOT THE PERSON WITH THE ROLL WRITES THE RACK NUMBER ON IT WITH A MARKER AND LABOUR 
+TAKES IT TO THAT PARTICULAR RACK.  
+ONCE THE ENTIRE LIST IN COMPLETE OR THE ROLLS ARE OVER, WE CHECK IF ANY ITEM IS MISSING ON THE GOOGLE 
+SHEET. IF YES WE NOTE IT DOWN TO SEE IF IT WAS SHORT FROM MILL OR IT COULD ALSO HAVE BEEN MISSED TO TICK IN 
+THE SHEET. WE ADD SUCH ROLLS TO NOT FOUND IN BUSY. WE MAKE A SALE OF THESE ROLLS AND WRITE *NOT 
+FOUND/TRACED* IN PARTICULARS WHILE SAVING THE SALE. THIS SALE HAS ROLLS THAT WE COULDN’T TICK IN THE 
+SHEET. NOW IF IN FUTURE WHILE MAKING SALE OF A BUYER , A PARTICULAR ROLL SHOWS UP IN THIS SALE, WE KNOW 
+THAT IT MIGHT HAVE BEEN MISED TO TICK IN THE SHEET SO WE DLETE IT FROM NOT FOUND SALE AND ADD IT TO THE 
+BUYERS SALE WE ARE MAKING.  
+SALE – WHEN A BUYER CONFIRM SOME ORDER. WE JUST MAKE SALE OF THE FABRIC ON BUSY AND DISPATCH THE 
+GOODS TO THE BUYER. SALE COULD COME FROM SWATCHES, OR A BUYER VISIT AND SELECTING THE WHOLE RACK. 
+YOU WILL HAVE THE SALE DATA. WE WANT YOU TO MAKE A BOT TO CHECK THE SALES TO SEE IF ANY DIFFERETN 
+QUALITY ROLL IS SENT TO A BUYER. FOR EG IF THE WHOLE SALE IS OF POPLIN TO CHECK IF THERE IS ANY OTHER 
+QUALITY OTHER THAN POPLIN AND FLAG IT. COZ MOSTLY WHEN WE MAKE SALES, WE TRY TO MAKE IT QUALITY WISE. 
+LIKE IF A CUSTOMER PURCHASED BOTOOM TWILL, POPLIN, LYCRE POPLIN DRILL ETC. WE ALWAYS MAKE SEPARATE 
+SALES FOR EACH QUALITY SO THAT WE CAN RATE ITEMS CORRECTLY AND ALSO THE CUSTOMER CAN KNOW HOW 
+MUCH QTY HE HAS OF EACH CATEGORY/QUALITY. SO IF POPLIN SALE HAS A ROLL OF LYCRE TWILL QUALITY WE CAN LET 
+HE BUYER OR CAN ASK THE ROLL BACK AS RATES ARE DIFFERENT.  
+ 
+ 
+ 
+Q16. Day-to-Day Operations Flow 
+Please walk us through a typical working day. Understanding this end-to-end will ensure every screen we build 
+matches your actual workflow. 
+• 
+New stock arrives → who records it, and where? 
+• 
+How do you identify the right buyer for a new lot? 
+• 
+A sale is confirmed → who records it, and how? 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION D — OPERATIONS & DAILY WORKFLOW 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 9 
+ 
+ 
+THE SYSTEM YOU BUILD CAN START LEARNING WHICH SAMPLE SHOULD I SEND TO WHICH CUSTOMER. I CAN GIVE 
+YOU A LIST OF PEOPLE WE SEND SAMPLES TO DAILY AS WE GET THE BILL FROM COURIER COMPANY. YOU CAN SEE 
+WHICH CUTOMER OUT OF THOSE 64 BUYERS ARE PUCHASING MOST FABRIC. ALSO WE CAN ADD PHOTOS OF ALL 
+THE SAMPLES THAT WE MAKE AND THEN FROM THE SALES DATA THE SYSTEM CAN CHECK WHICH BUYER 
+PRUCHSED THAT FABRIC.  
+ 
+ 
+ 
+ 
+ 
+ 
+Q17. Sample Tracking 
+When a fabric sample is sent to a buyer, is it logged anywhere — WhatsApp, a diary, or Excel? 
+• 
+Do you track the buyer’s response (interested, passed, or purchased)? 
+ 
+ 
+ 
+Q18. Supplier Relationships 
+Do you consistently source from the same 10–20 manufacturers, or do suppliers change frequently? 
+• 
+Do you have a sense of which manufacturer’s material tends to sell faster? 
+ 
+ 
+ 
+Q19. Reports Currently in Use 
+What reports do you generate today? 
+• 
+What do you send to your accountant? 
+• 
+Is there a report you need but currently cannot produce? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ response: 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 11 
+ 
+ 
+ response:MY WEBDITE IS RUNNING ON A CLOUD THAT YOU CAN CHECK, IM NOT TOO SURE ABOUT THIS 
+INFORMATION. OR WE CAN SET IT UP ON THE LOCAL SERVER WE HAVE.  
+ 
+ 
+ 
+ 
+ 
+Q20. Hosting Preference 
+Do you prefer cloud hosting (AWS or GCP, approximately ₹3,000–5,000/month) or an on-premise local server? 
+• 
+Do you have any existing cloud accounts we can use? 
+ 
+ 
+ 
+Q21. AI (Claude) API Key 
+The plaVorm’s AI assistant runs on Anthropic’s Claude API, at an estimated cost of approximately ₹100/day. 
+• 
+Do you already have an Anthropic API key? 
+• 
+Or should we set one up on your behalf? 
+ 
+ 
+ 
+ 
+Q22. WhatsApp Setup 
+Are you using WhatsApp Business or a personal number for business communication? 
+• 
+Do you have a Meta Business account (business.facebook.com) set up? 
+• 
+If not, we will use a manual copy-paste broadcast flow as the starting point. 
+ 
+ 
+ 
+Q23. Existing Website 
+Do you have an existing website? 
+• 
+If yes, share the URL and platform (WordPress, Shopify, custom, etc.) 
+• 
+Will admin access be available for integration? 
+• 
+Or do we need to build a new stock catalog page from scratch? 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION E — TECHNOLOGY & INFRASTRUCTURE 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 12 
+ 
+ 
+SMARTPHONES MOSTLY ANDROID. ONLY I HAVE AN IPHONE 
+YES WE HAVE WIFI CONNECTIVITY THROUGHOUT THE WAREHOUSE.  
+ 
+ 
+ 
+ 
+ 
+ 
+Q24. Mobile Devices & Connectivity 
+Will warehouse staff use smartphones or tablets? 
+• 
+Android or iPhone? 
+• 
+Is WiFi reliable throughout the warehouse, or do we need to design for offline mode? 
+ 
+ 
+ 
+Q25. UI Language 
+Should the interface labels be in Hindi (e.g., ːॉŤक एं%टॉ&', खरी'दा+री, री`क) or English throughout? 
+• 
+Note: The AI chat assistant will support Hindi regardless of this choice. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 13 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 14 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q26. Geofencing Scope 
+Which staff members should have location-based login restrictions — warehouse staff only, or salespeople as well? 
+• 
+If a salesperson is physically at a buyer’s premises for a visit, should they be allowed to log in? 
+ 
+ 
+ 
+Q27. Role Permissions 
+Beyond the three core roles (Owner, Sales Rep, Warehouse), are there any additional access levels needed? 
+• 
+Accountant role with read-only access? 
+• 
+Manager role with approval rights for markdowns and price changes? 
+ 
+ 
+ 
+ 
+ 
+ 
+Thank you for completing this questionnaire. 
+Your responses will directly shape the platform configuration. Please return the completed document to the 
+CaratSense team at your earliest convenience. If any question is unclear, leave it blank — we will follow up 
+during our next call. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION F — ACCESS CONTROL & COMPLIANCE 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 15 
+ 
+ 
+Stock  
+ 
+Dyed  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grey 
+ 
+1. 
+Piece dyed 
+ 
+Cotton –  
+o 
+Bottom 
+ 
+Lycre  
+ 
+Twill 
+ 
+Dobby 
+ 
+Knit 
+ 
+Satin 
+ 
+Matty 
+ 
+Tussur 
+ 
+A150C873 
+ 
+ 
+ 
+Non lycre 
+ 
+Twill 
+ 
+Drill 
+ 
+Matty 
+ 
+Dobby 
+ 
+Satin 
+ 
+Tussur 
+ 
+130D07 
+o 
+Shirting 
+ 
+Lycre poplin 
+ 
+Poplin 
+ 
+130129 
+ 
+Oxford 
+ 
+Dobby 
+ 
+Satin 
+ 
+Cemric 
+ 
+A140D499 
+ 
+ 
+ 
+Poly-cotton  
+o 
+Bottom  
+2. 
+Print 
+a. Shirting  
+i. Poplin 
+ii. Satin 
+iii. Poplin 
+iv. Cemric 
+v. Viscose 
+b. Bottom 
+i. Non lycre 
+ii. Lycre 
+ 
+ 
+3. 
+Yarndyed  
+4. 
+Denim – 
+a. Shirting  
+b. Bottom rigid 
+c. 
+Bottom lycre 
+d. Ecru lycre 
+
+CaratSense | Discovery Questionnaire 
+Confidential — Page 16 
+ 
+ 
+e. Ecru rigid 
+f. 
+Selvage 
+g. 
+Poly lycre 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,427 @@
+ 
+Surplus Stock 
+Intelligence Platform 
+ 
+Solution Scope & System Design 
+8-Week Build | Smart Inventory | Buyer Matching | AI Chat | Website Sync 
+ 
+Prepared by CaratSense 
+Custom AI Solutions & Business Automation 
+caratsense.in | March 2026 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Business Context 
+You operate as a surplus textile stockist — buying leftover, end-of-lot, off-shade, and slightly 
+defective fabric from manufacturers, then reselling to small businesses and traders. This is 
+fundamentally different from a regular textile operation: 
+• 
+Stock is opportunistic: you buy what becomes available, not what you forecast 
+• 
+Speed matters: when surplus lands, the fastest match to the right buyer wins 
+• 
+Buyer knowledge is your edge: knowing which buyer wants which type of fabric, quality 
+grade, and price range is the core competitive advantage 
+• 
+Current system: Busy (offline accounting software) with manual Excel/paper tracking for 
+inventory and customer history 
+This platform is designed to turn that buyer knowledge — currently in peoples’ heads — into a 
+system that the entire team can use. 
+ 
+What Your Data Tells Us 
+Based on our analysis of your recent sales data (Feb–Mar 2026): 
+Metric 
+Value 
+Active buyers 
+435 unique customers 
+Sales volume (6 weeks) 
+816 invoices / 8.5 lakh+ meters 
+Specialist buyers (buy <5 product types) 
+~20% of top buyers (JANI TEXTILES, ACC 
+CLOTHING, PIYUSH JI) 
+Generalist buyers (buy 20+ product types) 
+~65% of top buyers (B A G, JINDAL FAB, 
+Yogesh Sharma) 
+Fastest clearance 
+LEADCLT: 17,500m cleared in 3 days 
+across 3 buyers 
+Slowest movers 
+14015: 30,750m took 38 days across 41 
+buyers 
+Strongest buyer-product match 
+JANI TEXTILES ↔ 116414: 20,515m repeat 
+buying 
+ 
+Key insight: your buyers fall into two clear types — specialists who always want the same fabric 
+type, and generalists who will look at anything. The system needs to handle both. 
+ 
+ 
+2 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Module 1: Smart Stock Management 
+Structured stock entry with quality-based classification, location tracking, and live visibility. 
+Stock Entry & Classification 
+Every lot that enters the warehouse gets classified into one of the defined stock types: 
+# 
+Stock Type 
+Typical Source 
+Example 
+1 
+Dead Stock 
+Cancelled orders, old 
+production 
+500m of last season print no one 
+collected 
+2 
+Off-Shade / Off-Spec 
+Dyeing defects, shade 
+mismatch 
+Poplin batch came 2 shades 
+darker 
+3 
+Mill Seconds 
+Minor 
+weaving/finishing 
+defects 
+Lycra with small knot every 20m 
+4 
+End-of-Lot / Remnants 
+Short rolls, tail ends 
+15 rolls of 30–70m each, 
+assorted 
+5 
+Overproduction / 
+Surplus 
+Excess from large 
+orders 
+Manufacturer made 10K, buyer 
+took 8K 
+6 
+Manufactured / 
+Generic 
+Standard production 
+goods 
+Regular poplin, sheeting, etc. 
+ 
+These types are configurable — you can add, rename, or merge categories as your business 
+evolves. Each stock entry captures: fabric type, quality grade, quantity (meters/pcs), source 
+manufacturer, purchase price, defect notes (if any), and assigned rack location. 
+Storage & Location Rules 
+• 
+Rule-based rack assignment: system suggests where to store based on fabric type, 
+quality grade, and grouping rules (all lycra together, all whites together, etc.) 
+• 
+Rack master: full warehouse map with designated zones — configurable by you 
+• 
+Override allowed: suggestions are smart defaults, team can override with a reason 
+• 
+Search and locate: type a product code or bale number, instantly see which rack it is in 
+Live Stock Dashboard 
+• 
+Real-time view of total stock: by fabric type, quality grade, rack location, and age (days 
+since purchase) 
+• 
+Visual rack map: see which racks are full, which have space, color-coded by stock type 
+• 
+Stock aging alerts: surplus that has been sitting for 30/60/90 days gets flagged — price it 
+to move 
+• 
+Low stock alerts: when a fast-moving fabric type drops below threshold, get notified 
+ 
+3 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Module 2: Buyer Intelligence & Matching 
+The core differentiator: when new surplus arrives, instantly know who to call. 
+How It Works 
+1. New stock lands: You enter the lot (fabric type, quality, meters, price range). 
+2. System matches: Based on past purchase history, the system surfaces the top 5–10 
+buyers most likely to want this exact type of fabric. 
+3. Team acts: Salesperson sees the match list, sends samples to the right buyers first. No 
+more guessing. 
+4. Feedback loop: When the buyer purchases (or passes), the system learns and 
+improves future matches. 
+Matching Logic 
+• 
+Product affinity: buyers who have previously bought this fabric type or similar fabrics 
+rank highest 
+• 
+Quality tolerance: some buyers only want first-quality, others actively seek 
+seconds/off-shade — the system knows 
+• 
+Volume match: do not send 10,000m lots to a buyer who typically buys 500m 
+• 
+Recency: buyers who purchased recently are more active than those dormant for 
+months 
+• 
+Specialist vs generalist: specialists get matched on exact fabric type; generalists get 
+matched on broader fabric category 
+Sample Matching Output 
+When a new lot of “116414 — Surplus, 5,000m” is entered: 
+# 
+Buyer 
+Past Volume 
+Times 
+Bought 
+Last Order 
+Match Score 
+1 
+JANI TEXTILES 
+20,515m 
+2x 
+Mar 13 
+98% 
+2 
+JANI TEX LLP 
+7,781m 
+1x 
+Feb 18 
+85% 
+3 
+B A G 
+Mixed buyer 
+19 orders 
+Mar 13 
+62% 
+4 
+JINDAL FAB 
+Generalist 
+13 orders 
+Mar 08 
+58% 
+ 
+Customer Profiles 
+• 
+Full purchase history per buyer: what they bought, when, how much, which quality grades 
+• 
+Buyer tags: specialist/generalist, quality preference, typical volume range, payment 
+behavior 
+• 
+Contact info and assigned salesperson 
+• 
+Sample tracking: which samples were sent, buyer response (interested / passed / 
+purchased) 
+ 
+4 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Module 3: AI Chat Interface 
+Natural language access to your entire stock and sales data. Ask questions, get answers. 
+What You Can Ask 
+Question 
+What the System Returns 
+"Who buys lycra?" 
+List of buyers ranked by lycra purchase history, 
+with volumes and recency 
+"What is sitting in rack 736?" 
+Product details, meters, age, quality grade for 
+every bale in that rack 
+"Show me all dead stock older than 60 days" 
+Filtered list with aging, original price, suggested 
+markdown 
+"What did PARAS buy last month?" 
+Full purchase breakdown: products, quantities, 
+dates 
+"I just got 3000m of off-shade poplin, who 
+wants it?" 
+Top buyer matches with affinity scores and 
+contact info 
+"What is our fastest moving fabric this month?" 
+Ranked by clearance speed (days to sell 
+through) 
+ 
+This runs on a large language model connected to your database. No training required — your 
+team just types in Hindi or English and gets answers. The system understands context: asking 
+“who wants this?” after entering stock automatically refers to the last lot entered. 
+ 
+Module 4: Team Dashboard & Sales Tagging 
+One screen for the entire team to coordinate. 
+Features 
+• 
+Sales rep assignment: tag which salesperson handles which buyer or fabric category — 
+visible to everyone 
+• 
+Employee stock tagging: mark which lots each salesperson is actively working on selling 
+• 
+Daily task view: each salesperson logs in and sees their assigned buyers, pending 
+samples, and recommended actions 
+• 
+Role-based access: owner sees everything; salespeople see their accounts and stock; 
+warehouse staff sees inventory only 
+ 
+ 
+5 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Module 5: Website Stock Sync 
+Live inventory pushed to your existing website so buyers can browse available stock online. 
+How It Works 
+• 
+Stock marked as “publish to website” in the dashboard automatically appears on your 
+site 
+• 
+Real-time sync: when stock is sold or moved, the website updates — no manual editing 
+• 
+Configurable visibility: choose which stock types, quality grades, or categories appear 
+publicly 
+• 
+Integration approach depends on your current website platform (WordPress, custom, 
+Shopify, etc.) — we will assess and build the right connector 
+ 
+Our Recommendations (Value-Adds Beyond the Ask) 
+Based on what we have seen in your data and business model, here are features we think will 
+add real value: 
+★ Duplicate buyer detection 
+Your data has buyers listed as “B A G” and “BAG”, “Blue falls” and “Blue fall”, “JANI TEXTILES 
+LLP” and “JANI TEX LLP”. The system will auto-detect and merge duplicates so buyer history is 
+complete, not split across entries. 
+★ Stock aging & markdown engine 
+Surplus that sits loses value. The system tracks days-since-purchase for every lot and suggests 
+progressive markdowns: 15% off at 30 days, 25% at 60, clearance at 90. Thresholds are 
+configurable. This turns slow inventory into cash faster. 
+★ WhatsApp broadcast integration 
+When new stock arrives and buyers are matched, auto-generate a WhatsApp message with stock 
+details (fabric, meters, quality, price) ready to send to the matched buyer list. One tap, not 20 
+minutes of manual messaging. 
+★ Busy accounting data sync 
+Automated import of sales and purchase data from Busy software. Since Busy is offline, we will 
+set up a scheduled export-and-import flow so your platform stays current without manual re-entry. 
+★ Supplier / source tracking 
+Track which manufacturers you source from, what quality you typically get from each, and build a 
+supplier scorecard. Over time this helps you prioritize which manufacturer’s surplus to chase. 
+★ Buyer dormancy alerts 
+Flag buyers who used to order regularly but have gone quiet for 30+ days. These are 
+re-engagement opportunities — send them a sample of something new. 
+ 
+ 
+6 
+
+CaratSense | Surplus Stock Intelligence Platform 
+ 
+Technical Architecture 
+Layer 
+Technology 
+Data Import 
+Busy export parser (scheduled) + manual upload 
+Backend API 
+Python (FastAPI) — business logic, matching engine, rules 
+Database 
+PostgreSQL — buyers, stock, movements, assignments 
+AI / LLM Layer 
+Claude API — natural language queries over your data 
+Frontend 
+React web app — responsive (desktop + mobile) 
+Website Sync 
+REST API push to your existing website 
+Hosting 
+Cloud (AWS/GCP) or on-premise — your preference 
+ 
+Delivery Roadmap — 8 Weeks 
+Compressed two-month build. Four sprints, each delivering working software your team can 
+start using immediately. We demo at the end of every sprint — you see progress every two 
+weeks. 
+Sprint 1: Foundation + Stock Entry (Weeks 1–2) 
+• 
+Database schema design and setup 
+• 
+Busy export parser — automated import of sales and purchase history 
+• 
+Stock entry system with 6 configurable quality types (dead stock, off-shade, mill 
+seconds, remnants, surplus, manufactured) 
+• 
+Rack master setup + storage location rules engine 
+• 
+Buyer database populated from historical Busy data 
+You get: Working stock entry tool + buyer database with full purchase history loaded. 
+Sprint 2: Warehouse + Live Dashboard (Weeks 3–4) 
+• 
+Smart rack allocation — rule-based suggestions when new stock arrives 
+• 
+Live stock dashboard: rack map, search by product/bale/rack, filters by quality type 
+• 
+Stock movement logging (inward/outward with timestamps) 
+• 
+Stock aging tracker: 30/60/90-day flags with markdown suggestions 
+• 
+Low stock alerts for fast-moving fabric types 
+• 
+Employee stock tagging — mark which lots each salesperson is working on 
+You get: Full warehouse visibility with rack map, aging alerts, and team stock tagging. 
+7 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Sprint 3: Buyer Intelligence + Matching (Weeks 5–6) 
+• 
+Buyer-product affinity engine — scores every buyer against every fabric type 
+• 
+New stock → instant buyer match recommendations (top 5–10 ranked by score) 
+• 
+Customer profiles: specialist/generalist tagging, quality preferences, volume ranges 
+• 
+Duplicate buyer detection and merge (B A G / BAG, Blue falls / Blue fall, etc.) 
+• 
+Sales rep assignment + role-based access control (owner / salesperson / warehouse) 
+• 
+Buyer dormancy alerts — flag inactive buyers for re-engagement 
+You get: The matching engine — enter new stock, get a ranked buyer list instantly. 
+Sprint 4: AI Chat + Website + Go-Live (Weeks 7–8) 
+• 
+LLM chat interface (Claude API) — query stock and buyer data in Hindi or English 
+• 
+Website sync — live stock feed pushed to your existing website, auto-updated 
+• 
+WhatsApp broadcast integration — auto-generate messages for matched buyers 
+• 
+Supplier/source tracking and scorecard 
+• 
+End-to-end testing, bug fixes, edge cases 
+• 
+Team training — hands-on walkthrough with each role (owner, sales, warehouse) 
+You get: Full platform live — AI chat, website sync, WhatsApp, the whole package. 
+Post-Launch Support 
+• 
+2 weeks of bug-fix and stabilization support included after go-live 
+• 
+Ongoing maintenance and feature iteration available as a separate engagement 
+ 
+What We Need From You 
+• 
+Historical data (needed Week 1): 6–12 months of Busy exports (sales + purchase 
+vouchers). We need this before Sprint 1 starts. 
+• 
+Stock type definitions: confirm / adjust the 6 categories above to match how you think 
+about your inventory 
+• 
+Warehouse layout: rack numbers, zones, and any current grouping rules you follow 
+• 
+Current inventory snapshot: packing lists for everything currently in the warehouse 
+• 
+Team list: salespeople names and their current buyer/area assignments 
+• 
+Website access: platform details (WordPress, custom, etc.) and admin access for sync 
+integration 
+• 
+Busy software access: for us to understand export formats and set up the data pipeline 
+ 
+ 
+8 
+
+CaratSense | Surplus Stock Intelligence Platform 
+Why CaratSense 
+• 
+We build and ship working software — not slide decks. Full platform live in 8 weeks, 
+demos every 2 weeks. 
+• 
+Custom-built for the surplus model: no generic ERP that does not understand 
+opportunistic buying and buyer matching. 
+• 
+AI-native: the matching engine and chat interface are the foundation, not a bolt-on. 
+• 
+Your data stays yours: hosted on your preferred infrastructure, no third-party data 
+sharing. 
+• 
+We iterate: after Phase 3, we continue refining based on what your team actually uses. 
+ 
+ 
+CaratSense | caratsense.in | See Beyond. 
+9 

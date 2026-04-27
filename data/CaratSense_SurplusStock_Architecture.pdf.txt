@@ -1,0 +1,55 @@
+Surplus Stock Intelligence Platform
+System Architecture
+CaratSense
+caratsense.in
+DATA SOURCES
+Busy accounting
+Sales & purchase data
+Warehouse input
+Barcode / QR / manual
+Packing lists
+Bale-level stock entry
+Data ingestion & sync engine (Busy parser + real-time input)
+Central database (PostgreSQL)
+Buyers, stock, movements, quality grades
+PLATFORM MODULES
+Stock mgmt
+Quality types
+Rack rules
+Location
+Buyer intel
+Match engine
+Affinity scores
+Samples
+AI chat
+Natural lang
+Hindi/English
+Queries
+Dashboard
+Team views
+Rep tagging
+Roles
+Website sync
+Live catalog
+Auto-update
+Stock feed
+ACTIONS & OUTPUTS
+Buyer match list
+Who to call for new stock
+Clearance & alerts
+Aging stock + low stock
+Live website catalog
+Auto-synced stock feed
+Every sale + pass improves future buyer matching
+feedback loop
+TEAM ACCESS
+Owner
+Full access
+Sales reps
+Assigned buyers
+Warehouse
+Inventory only
+Mobile
+On the go
+CaratSense | Custom AI Solutions & Business Automation
+caratsense.in | See Beyond.

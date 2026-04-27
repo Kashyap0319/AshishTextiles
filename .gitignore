@@ -1,0 +1,79 @@
+# ─── Sensitive ───
+.env
+.env.local
+.env.production
+.env.development
+*.env
+backend/.env
+frontend/.env.local
+
+# ─── Databases ───
+*.db
+*.sqlite
+*.sqlite3
+caratsense.db
+backend/caratsense.db
+
+# ─── Dependencies ───
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ─── Build outputs ───
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── IDE / OS ───
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ─── Logs ───
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── Cache ───
+.cache/
+.parcel-cache/
+.eslintcache
+
+# ─── Vercel ───
+.vercel
+
+# ─── Backups ───
+frontend-vite-backup/
+*.bak
+*.backup
+
+# ─── Large data ───
+data/*.xlsx
+data/*.xls
+data/*.pdf
+!data/sample-courier.xlsx
+
+# ─── Generated (commit these — frontend needs them) ───
+# frontend/lib/real-data.json  (KEPT IN REPO)
+# frontend/lib/rack-data.json  (KEPT IN REPO)
+
+# ─── Coverage ───
+coverage/
+.nyc_output/
+
+# ─── Temp ───
+*.tmp
+*.temp
+.tmp/

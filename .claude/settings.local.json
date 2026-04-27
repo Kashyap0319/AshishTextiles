@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sqlite3; c=sqlite3.connect\\(r'c:/Users/Shrey/OneDrive/Desktop/Surplus Stock/backend/caratsense.db'\\); tables=['articles','buyers','sales','purchases','racks']; [print\\(f'  {t}: {c.execute\\(f\\\\\"SELECT COUNT\\(*\\) FROM {t}\\\\\"\\).fetchone\\(\\)[0]}'\\) for t in tables]\")"
+    ]
+  }
+}

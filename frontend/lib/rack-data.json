@@ -1,0 +1,671 @@
+{
+  "halls": {
+    "Hall 10": {
+      "rack_count": 35,
+      "racks": [
+        {
+          "number": 1001,
+          "goods": "A130162"
+        },
+        {
+          "number": 1002,
+          "goods": "A130162"
+        },
+        {
+          "number": 1003,
+          "goods": "A130162"
+        },
+        {
+          "number": 1004,
+          "goods": "A130162"
+        },
+        {
+          "number": 1005,
+          "goods": "A132A453"
+        },
+        {
+          "number": 1006,
+          "goods": "A130162"
+        },
+        {
+          "number": 1007,
+          "goods": "RIBSTOP"
+        },
+        {
+          "number": 1008,
+          "goods": "SHEETING"
+        },
+        {
+          "number": 1010,
+          "goods": "DRILL-ECRU"
+        },
+        {
+          "number": 1011,
+          "goods": "DRILL-RD"
+        },
+        {
+          "number": 1014,
+          "goods": "drill-10x10"
+        },
+        {
+          "number": 1015,
+          "goods": "drill-10x10"
+        },
+        {
+          "number": 1016,
+          "goods": "DRILL-16X12"
+        },
+        {
+          "number": 1017,
+          "goods": "DRILL-16X12"
+        },
+        {
+          "number": 1018,
+          "goods": "DRILL-16X12"
+        },
+        {
+          "number": 1022,
+          "goods": "2-PLY"
+        },
+        {
+          "number": 1023,
+          "goods": "PC-TWILL"
+        },
+        {
+          "number": 1026,
+          "goods": "A120C445-MATTY"
+        },
+        {
+          "number": 1027,
+          "goods": "A120C445-MATTY"
+        },
+        {
+          "number": 1028,
+          "goods": "A120C445-MATTY"
+        }
+      ]
+    },
+    "Hall 2": {
+      "rack_count": 4,
+      "racks": [
+        {
+          "number": 201,
+          "goods": "PRINT-SHTG"
+        },
+        {
+          "number": 202,
+          "goods": "PRINT-SHTG"
+        },
+        {
+          "number": 203,
+          "goods": "PRINT-SHTG"
+        },
+        {
+          "number": 218,
+          "goods": "CRAPE"
+        }
+      ]
+    },
+    "Hall 3": {
+      "rack_count": 9,
+      "racks": [
+        {
+          "number": 301,
+          "goods": "white-a130e937"
+        },
+        {
+          "number": 302,
+          "goods": "white-13209"
+        },
+        {
+          "number": 303,
+          "goods": "white-a132a680"
+        },
+        {
+          "number": 304,
+          "goods": "white-a1300136"
+        },
+        {
+          "number": 305,
+          "goods": "white-13000424"
+        },
+        {
+          "number": 306,
+          "goods": "white-130q01"
+        },
+        {
+          "number": 307,
+          "goods": "A132A583-BLACK"
+        },
+        {
+          "number": 308,
+          "goods": "white-a132a845"
+        },
+        {
+          "number": 315,
+          "goods": "INDIGO"
+        }
+      ]
+    },
+    "Hall 4": {
+      "rack_count": 20,
+      "racks": [
+        {
+          "number": 401,
+          "goods": "WHITE-A121A058"
+        },
+        {
+          "number": 402,
+          "goods": "WHITE-A121A058"
+        },
+        {
+          "number": 403,
+          "goods": "WHITE-14015"
+        },
+        {
+          "number": 404,
+          "goods": "WHITE-14015"
+        },
+        {
+          "number": 405,
+          "goods": "WHITE-14005"
+        },
+        {
+          "number": 406,
+          "goods": "WHITE-140367"
+        },
+        {
+          "number": 407,
+          "goods": "WHITE-A145A030"
+        },
+        {
+          "number": 408,
+          "goods": "WHITE"
+        },
+        {
+          "number": 409,
+          "goods": "white-120i24"
+        },
+        {
+          "number": 410,
+          "goods": "white-a120c760"
+        },
+        {
+          "number": 411,
+          "goods": "white-a120e363"
+        },
+        {
+          "number": 413,
+          "goods": "white-116346"
+        },
+        {
+          "number": 414,
+          "goods": "WHITE"
+        },
+        {
+          "number": 416,
+          "goods": "white-12607"
+        },
+        {
+          "number": 417,
+          "goods": "WHITE-12000349"
+        },
+        {
+          "number": 418,
+          "goods": "WHITE-12000349"
+        },
+        {
+          "number": 420,
+          "goods": "white-11400045"
+        },
+        {
+          "number": 423,
+          "goods": "GATE"
+        },
+        {
+          "number": 424,
+          "goods": "GATE"
+        },
+        {
+          "number": 428,
+          "goods": "white-120902"
+        }
+      ]
+    },
+    "Hall 5": {
+      "rack_count": 17,
+      "racks": [
+        {
+          "number": 501,
+          "goods": "A116B150-BLUE"
+        },
+        {
+          "number": 502,
+          "goods": "A116B150-BLUE"
+        },
+        {
+          "number": 503,
+          "goods": "white-13000192"
+        },
+        {
+          "number": 504,
+          "goods": "WHITE"
+        },
+        {
+          "number": 505,
+          "goods": "WHITE"
+        },
+        {
+          "number": 506,
+          "goods": "WHITE"
+        },
+        {
+          "number": 507,
+          "goods": "WHITE"
+        },
+        {
+          "number": 508,
+          "goods": "WHITE-13200046"
+        },
+        {
+          "number": 509,
+          "goods": "WHITE-A140030"
+        },
+        {
+          "number": 514,
+          "goods": "WHITE"
+        },
+        {
+          "number": 516,
+          "goods": "white-1100042"
+        },
+        {
+          "number": 517,
+          "goods": "white-a132b194"
+        },
+        {
+          "number": 518,
+          "goods": "WHITE"
+        },
+        {
+          "number": 519,
+          "goods": "WHITE"
+        },
+        {
+          "number": 520,
+          "goods": "white-130774"
+        },
+        {
+          "number": 521,
+          "goods": "WHITE"
+        },
+        {
+          "number": 522,
+          "goods": "WHITE"
+        }
+      ]
+    },
+    "Hall 6": {
+      "rack_count": 32,
+      "racks": [
+        {
+          "number": 602,
+          "goods": "SMALL - DBY - BTM"
+        },
+        {
+          "number": 603,
+          "goods": "SMALL - 30X20"
+        },
+        {
+          "number": 604,
+          "goods": "SMALL - RIBSTOP"
+        },
+        {
+          "number": 608,
+          "goods": "SMALL- LY - SATIN"
+        },
+        {
+          "number": 609,
+          "goods": "SMALL- LY - TWILL"
+        },
+        {
+          "number": 610,
+          "goods": "SMALL- LY - TWILL"
+        },
+        {
+          "number": 611,
+          "goods": "SMALL- LY - TWILL"
+        },
+        {
+          "number": 612,
+          "goods": "SMALL- LY - TWILL"
+        },
+        {
+          "number": 613,
+          "goods": "SMALL- LY - DOBBY"
+        },
+        {
+          "number": 616,
+          "goods": "SMALL - LY - MATTY"
+        },
+        {
+          "number": 618,
+          "goods": "SMALL - MATTY"
+        },
+        {
+          "number": 619,
+          "goods": "SMALL - LY - RD"
+        },
+        {
+          "number": 620,
+          "goods": "SMALL - 240243"
+        },
+        {
+          "number": 622,
+          "goods": "SMALL - PC - POPLIN"
+        },
+        {
+          "number": 623,
+          "goods": "SMALL - DOBBY - SHTG"
+        },
+        {
+          "number": 624,
+          "goods": "SMALL - TWILL"
+        },
+        {
+          "number": 625,
+          "goods": "SMALL- SATIN - SHTG"
+        },
+        {
+          "number": 626,
+          "goods": "TENSIL"
+        },
+        {
+          "number": 627,
+          "goods": "SMALL - A280A851"
+        },
+        {
+          "number": 628,
+          "goods": "SMALLL - A130162"
+        }
+      ]
+    },
+    "Hall 7": {
+      "rack_count": 44,
+      "racks": [
+        {
+          "number": 701,
+          "goods": "130129"
+        },
+        {
+          "number": 702,
+          "goods": "130129"
+        },
+        {
+          "number": 703,
+          "goods": "SMALL-130129"
+        },
+        {
+          "number": 704,
+          "goods": "POPLIN"
+        },
+        {
+          "number": 708,
+          "goods": "VISCORSE"
+        },
+        {
+          "number": 709,
+          "goods": "VISCORSE"
+        },
+        {
+          "number": 710,
+          "goods": "VISCORSE"
+        },
+        {
+          "number": 712,
+          "goods": "DOBBY-SHTG"
+        },
+        {
+          "number": 714,
+          "goods": "DOBBY-SHTG"
+        },
+        {
+          "number": 715,
+          "goods": "WHITE-SHIRTING"
+        },
+        {
+          "number": 716,
+          "goods": "SATIN-SHTG"
+        },
+        {
+          "number": 717,
+          "goods": "LADIES-TWILL SHTG"
+        },
+        {
+          "number": 718,
+          "goods": "A130E202"
+        },
+        {
+          "number": 719,
+          "goods": "WHITE-TWILL"
+        },
+        {
+          "number": 720,
+          "goods": "60S TWILL"
+        },
+        {
+          "number": 722,
+          "goods": "TWILL SHTG"
+        },
+        {
+          "number": 723,
+          "goods": "TWILL SHTG"
+        },
+        {
+          "number": 724,
+          "goods": "LY-POPLIN"
+        },
+        {
+          "number": 725,
+          "goods": "LY-POPLIN"
+        },
+        {
+          "number": 726,
+          "goods": "LY-POPLIN"
+        }
+      ]
+    },
+    "Hall 8": {
+      "rack_count": 25,
+      "racks": [
+        {
+          "number": 801,
+          "goods": "LYCRE-RD"
+        },
+        {
+          "number": 802,
+          "goods": "A150C873"
+        },
+        {
+          "number": 803,
+          "goods": "A150C873"
+        },
+        {
+          "number": 804,
+          "goods": "LY-A120E524"
+        },
+        {
+          "number": 805,
+          "goods": "LY-TWILL"
+        },
+        {
+          "number": 806,
+          "goods": "LY-TWILL"
+        },
+        {
+          "number": 807,
+          "goods": "LY-TWILL"
+        },
+        {
+          "number": 808,
+          "goods": "LYCRE-KNIT"
+        },
+        {
+          "number": 811,
+          "goods": "LYCRE-DOBBY"
+        },
+        {
+          "number": 812,
+          "goods": "A120D870"
+        },
+        {
+          "number": 813,
+          "goods": "A120B275"
+        },
+        {
+          "number": 814,
+          "goods": "LY-SATIN"
+        },
+        {
+          "number": 815,
+          "goods": "LY-13257"
+        },
+        {
+          "number": 816,
+          "goods": "LY-13257"
+        },
+        {
+          "number": 820,
+          "goods": "LY-DRILL"
+        },
+        {
+          "number": 824,
+          "goods": "LY-A120E271"
+        },
+        {
+          "number": 825,
+          "goods": "LY-A240A858"
+        },
+        {
+          "number": 826,
+          "goods": "120H19"
+        },
+        {
+          "number": 827,
+          "goods": "1.2e+95"
+        },
+        {
+          "number": 828,
+          "goods": "LY-A124A632"
+        }
+      ]
+    },
+    "Hall 9": {
+      "rack_count": 25,
+      "racks": [
+        {
+          "number": 901,
+          "goods": "LYCRE-TWILL"
+        },
+        {
+          "number": 902,
+          "goods": "LYCRE-TWILL"
+        },
+        {
+          "number": 903,
+          "goods": "LYCRE-TWILL"
+        },
+        {
+          "number": 904,
+          "goods": "LYCRE-TWILL"
+        },
+        {
+          "number": 905,
+          "goods": "LYCRE-TWILL"
+        },
+        {
+          "number": 906,
+          "goods": "LY-MATTY"
+        },
+        {
+          "number": 908,
+          "goods": "A120D870"
+        },
+        {
+          "number": 913,
+          "goods": "4-WAY-LYCRE"
+        },
+        {
+          "number": 916,
+          "goods": "132340"
+        },
+        {
+          "number": 919,
+          "goods": "SATIN-SHIRTING"
+        },
+        {
+          "number": 920,
+          "goods": "SATIN-SHIRTING"
+        },
+        {
+          "number": 921,
+          "goods": "TWILL-130D07"
+        },
+        {
+          "number": 922,
+          "goods": "TWILL-130D07"
+        },
+        {
+          "number": 923,
+          "goods": "dobby-bottom"
+        },
+        {
+          "number": 924,
+          "goods": "A116A980"
+        },
+        {
+          "number": 925,
+          "goods": "TWILL-130D07"
+        },
+        {
+          "number": 927,
+          "goods": "SATIN-SHIRTING"
+        },
+        {
+          "number": 928,
+          "goods": "LIN-TWIL"
+        },
+        {
+          "number": 932,
+          "goods": "A120B819-5300075677"
+        },
+        {
+          "number": 936,
+          "goods": "LADIES - LY"
+        }
+      ]
+    }
+  },
+  "rack_rules": {
+    "PRINT": "Hall 2",
+    "WHITE": "Hall 5",
+    "GATE": "Hall 4",
+    "A116B150": "Hall 5",
+    "SMALL ": "Hall 6",
+    "SMALL": "Hall 7",
+    "LY": "Hall 8",
+    "VISCORSE": "Hall 7",
+    "130129": "Hall 7",
+    "DOBBY": "Hall 7",
+    "LYCRE": "Hall 9",
+    "A150C873": "Hall 8",
+    "SATIN": "Hall 9",
+    "TWILL": "Hall 9",
+    "A120C445": "Hall 10",
+    "DRILL": "Hall 10",
+    "TUSSUR": "Hall 10",
+    "A130162": "Hall 10",
+    "RD": "Hall 10"
+  },
+  "total_racks": 211
+}

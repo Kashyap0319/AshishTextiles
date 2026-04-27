@@ -1,0 +1,5062 @@
+{
+  "stats": {
+    "totalStockItems": 5734,
+    "totalMeters": 948664,
+    "totalPieces": 25826,
+    "totalBuyers": 742,
+    "totalSalesTransactions": 2103,
+    "totalMetersSold": 848964,
+    "qualityCategories": 237,
+    "uniqueArticles": 2374,
+    "totalRacks": 211
+  },
+  "stockEntries": [
+    {
+      "id": "1",
+      "code": "4942",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 39252,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 2
+    },
+    {
+      "id": "2",
+      "code": "4242",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 27287,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 3
+    },
+    {
+      "id": "3",
+      "code": "3222",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 16238,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 2
+    },
+    {
+      "id": "4",
+      "code": "A130F162  BAMF ",
+      "fabricType": "A130F162",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 15736,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 17
+    },
+    {
+      "id": "5",
+      "code": "SHORT PCS",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 15018,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "6",
+      "code": "A120D870  BDKKD",
+      "fabricType": "LY-RFD",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 11235,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 32
+    },
+    {
+      "id": "7",
+      "code": "A120C445  BDKOA",
+      "fabricType": "MATTY",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 10896,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 11
+    },
+    {
+      "id": "8",
+      "code": "A120D904  BAOKW",
+      "fabricType": "A120D904",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 9870,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 22
+    },
+    {
+      "id": "9",
+      "code": "RAGS",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 9724,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "10",
+      "code": "13257  BDDK  ST",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 9620,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 77
+    },
+    {
+      "id": "11",
+      "code": "16000645  BDMMV",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 9471,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 4
+    },
+    {
+      "id": "12",
+      "code": "A120D904  OSPPW",
+      "fabricType": "A120D904",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 9241,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 2
+    },
+    {
+      "id": "13",
+      "code": "A160A742  BADDA",
+      "fabricType": "VISCORSE",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 8932,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 11
+    },
+    {
+      "id": "14",
+      "code": "A130F162  BDMF ",
+      "fabricType": "A130F162",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 8813,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 6
+    },
+    {
+      "id": "15",
+      "code": "14000339  BDCC ",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 8389,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 7
+    },
+    {
+      "id": "16",
+      "code": "A132B583  BDMCB",
+      "fabricType": "TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 8288,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 9
+    },
+    {
+      "id": "17",
+      "code": "A145A233  BDMMW",
+      "fabricType": "PC-POPLIN",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 7966,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 7
+    },
+    {
+      "id": "18",
+      "code": "A124A179  BAKKW",
+      "fabricType": "LY-TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 7801,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 21
+    },
+    {
+      "id": "19",
+      "code": "30786448",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 7391,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "20",
+      "code": "A150D656  BAMC ",
+      "fabricType": "LY-twill",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 7236,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "21",
+      "code": "16009  BDMMJ  C",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 6146,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 7
+    },
+    {
+      "id": "22",
+      "code": "A160B540  BAMMB",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 6133,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 4
+    },
+    {
+      "id": "23",
+      "code": "A109A001  BDKKJ",
+      "fabricType": "A109A001",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 6066,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 15
+    },
+    {
+      "id": "24",
+      "code": "A150B589  BAMCB",
+      "fabricType": "LY-POPLIN",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 5905,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 17
+    },
+    {
+      "id": "25",
+      "code": "A132B285  BDDCD",
+      "fabricType": "LY-TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 5857,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 12
+    },
+    {
+      "id": "26",
+      "code": "13200046  BDDKJ",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 5672,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 5
+    },
+    {
+      "id": "27",
+      "code": "130542  BDCO  C",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 5512,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 33
+    },
+    {
+      "id": "28",
+      "code": "A150C547  BAMCB",
+      "fabricType": "LY-POPLIN",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 5408,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 15
+    },
+    {
+      "id": "29",
+      "code": "160A63  BAMMZ5 ",
+      "fabricType": "SATIN-SHTG",
+      "stockType": "overproduction",
+      "qualityGrade": "A",
+      "quantity": 5228,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 29
+    },
+    {
+      "id": "30",
+      "code": "A132A845  BDDKB",
+      "fabricType": "LY-13257",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 5082,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 10
+    },
+    {
+      "id": "31",
+      "code": "DYED",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 5000,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "32",
+      "code": "42",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4941,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "33",
+      "code": "WHITE",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4848,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "WHITE",
+      "bales": 13
+    },
+    {
+      "id": "34",
+      "code": "A150C642  BAMCW",
+      "fabricType": "LY-POPLIN",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 4781,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 1
+    },
+    {
+      "id": "35",
+      "code": "A120E524  BDKKB",
+      "fabricType": "LY-TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 4708,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 13
+    },
+    {
+      "id": "36",
+      "code": "A120D641  BDOOJ",
+      "fabricType": "MATTY",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4694,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 13
+    },
+    {
+      "id": "37",
+      "code": "12",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4565,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 6
+    },
+    {
+      "id": "38",
+      "code": "25839",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4433,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "DENIM",
+      "bales": 1
+    },
+    {
+      "id": "39",
+      "code": "A130F505  BDMKD",
+      "fabricType": "LY-13257",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4332,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 9
+    },
+    {
+      "id": "40",
+      "code": "A116A661  BDKCJ",
+      "fabricType": "LY-MATTY",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4295,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 10
+    },
+    {
+      "id": "41",
+      "code": "12000375  BDKKD",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4202,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 17
+    },
+    {
+      "id": "42",
+      "code": "6060165104",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4098,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "WHITE",
+      "bales": 4
+    },
+    {
+      "id": "43",
+      "code": "18006  BAMMJ  C",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 4018,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 19
+    },
+    {
+      "id": "44",
+      "code": "A132B467  BDMMA",
+      "fabricType": "TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 4000,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 6
+    },
+    {
+      "id": "45",
+      "code": "A112A575  BAOK ",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 3893,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 9
+    },
+    {
+      "id": "46",
+      "code": "A150C873  BAMFD",
+      "fabricType": "A150C873",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 3727,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 6
+    },
+    {
+      "id": "47",
+      "code": "130K00  BDDKJ  ",
+      "fabricType": "LY-TWILL",
+      "stockType": "overproduction",
+      "qualityGrade": "B",
+      "quantity": 3522,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 4
+    },
+    {
+      "id": "48",
+      "code": "130176  BD  CTS",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 3373,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 28
+    },
+    {
+      "id": "49",
+      "code": "A280B038  BAEFW",
+      "fabricType": "A280A851",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 3345,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 5
+    },
+    {
+      "id": "50",
+      "code": "A120E828  BAMCW",
+      "fabricType": "Unclassified",
+      "stockType": "overproduction",
+      "qualityGrade": "C",
+      "quantity": 3338,
+      "purchasePrice": 0,
+      "sellingPrice": 0,
+      "manufacturer": "Mill",
+      "rackLocation": "Warehouse",
+      "daysInStock": 0,
+      "dateAdded": "2026-03-01",
+      "lastUpdated": "2026-04-10",
+      "tags": [],
+      "status": "available",
+      "defectNotes": "",
+      "color": "OTHER",
+      "bales": 9
+    }
+  ],
+  "buyers": [
+    {
+      "id": "1",
+      "name": "JANI TEX",
+      "company": "JANI TEX",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "12047  BDOOO  CTPF  "
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 32677
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 32677,
+      "transactions": 26,
+      "lastOrderDate": "2026-03-13",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "2",
+      "name": "WASEEM JI",
+      "company": "WASEEM JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "116555  BA  CTSF  00",
+        "A120C623  BDOCD4  ST",
+        "A132B907  BDMKD  STS",
+        "A120E340  BDCC  CTSF",
+        "A120E271  BDMKD  STP"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 22400
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 22400,
+      "transactions": 14,
+      "lastOrderDate": "2026-02-27",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "3",
+      "name": "B A G",
+      "company": "B A G",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "13000596  BDMCCD  ST",
+        "11574-3010298455-1-I",
+        "22945-3010072689-1--",
+        "25710-3010291650-1-F",
+        "020453-18-019754-1-W"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 19459
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 19459,
+      "transactions": 44,
+      "lastOrderDate": "2026-03-13",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "4",
+      "name": "PAPPU",
+      "company": "PAPPU",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "24570-3010177042-1-I",
+        "23165-3010289500-1-B"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 17334
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 17334,
+      "transactions": 14,
+      "lastOrderDate": "2026-02-25",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "5",
+      "name": "SATPAL JI",
+      "company": "SATPAL JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "19915-82",
+        "25723-3010286710-1-I",
+        "009655-425051-1-INDI",
+        "24354-3010167304-1-A",
+        "45132-82"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 17040
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 17040,
+      "transactions": 20,
+      "lastOrderDate": "2026-03-12",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "6",
+      "name": "LALIT BANSAL",
+      "company": "LALIT BANSAL",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "A130E101  BDDKDW4J  ",
+        "16000108  BAMM  CT8E",
+        "24698-3010185994-1--",
+        "13000407  BDDDB  CTP",
+        "A130E974  BDCC  CTSF"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 16275
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 16275,
+      "transactions": 41,
+      "lastOrderDate": "2026-03-13",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "7",
+      "name": "JANI TEXTILES LLP",
+      "company": "JANI TEXTILES LLP",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "116414  BD  CTPF  64",
+        "116414  BD  CTPF  23",
+        "116414-BD-CT-PF-2300"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 16236
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 16236,
+      "transactions": 5,
+      "lastOrderDate": "2026-03-13",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "8",
+      "name": "PARAS",
+      "company": "PARAS",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "A106A002  BDOO  CTPF",
+        "11649  BAOOJ  CTSF  ",
+        "110118  BD  CTPF  93",
+        "A108A083  MOK  CTPF ",
+        "A109A013  BDKC4J  ST"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 15355
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 15355,
+      "transactions": 49,
+      "lastOrderDate": "2026-03-13",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "9",
+      "name": "STC",
+      "company": "STC",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "A116B372  BAOCQ  SCP",
+        "A116B372  BDOCQ  SCP",
+        "A130F162  BAMF  GSCN"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 15317
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 15317,
+      "transactions": 20,
+      "lastOrderDate": "2026-02-23",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "10",
+      "name": "SANJOG",
+      "company": "SANJOG",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "25141-3010232609-1-I"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 14785
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 14785,
+      "transactions": 8,
+      "lastOrderDate": "2026-02-27",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "11",
+      "name": "WASEEM",
+      "company": "WASEEM",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "A116B443  BDKK  CTSF"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 13989
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 13989,
+      "transactions": 13,
+      "lastOrderDate": "2026-02-04",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "12",
+      "name": "KEDAR JI",
+      "company": "KEDAR JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "25525-3010260615-1-B",
+        "25748-3010285742-1--",
+        "25713-3010292311-1-S",
+        "25806-3010301688-1-I",
+        "25787-3010298816-1-S"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 13537
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 13537,
+      "transactions": 21,
+      "lastOrderDate": "2026-03-06",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "13",
+      "name": "SHARWAN JI",
+      "company": "SHARWAN JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "A240A858  BDMK  STSF",
+        "12000162  BDCKDW4  S",
+        "13000232  BDMKDY  ST",
+        "130Q00  BD  STPF  93",
+        "120H19  BDKKJ  STSF "
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 12995
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 12995,
+      "transactions": 16,
+      "lastOrderDate": "2026-02-24",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "14",
+      "name": "LALIT BANSAL JI",
+      "company": "LALIT BANSAL JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "11600076  BDOO  CTSF",
+        "14000059  BAMMJ  CT+",
+        "A120E340  BDCC  CTSF",
+        "A112A513  BDOO  CTSF",
+        "13030  BD  CTSF  420"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 11096
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 11096,
+      "transactions": 25,
+      "lastOrderDate": "2026-03-01",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "15",
+      "name": "KUNGA",
+      "company": "KUNGA",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "A240A436  BDEKDW4  S",
+        "12000162  BDCKDW4  S",
+        "A240A325  BDEKDWA4  "
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 11008
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 11008,
+      "transactions": 12,
+      "lastOrderDate": "2026-02-04",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "16",
+      "name": "MINTOO JI",
+      "company": "MINTOO JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "13257  BDDKY  STPST ",
+        "13257  BADKA  STST  ",
+        "A120A767  BDKKDWA4  "
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 10264
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 10264,
+      "transactions": 11,
+      "lastOrderDate": "2026-03-02",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "17",
+      "name": "PREM ENT",
+      "company": "PREM ENT",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "140I21  BDMMB  CTSF ",
+        "GCDYDSH  BD  CTSF  D",
+        "A120E530  BDOO  CTSF",
+        "14015  BACM  CTSF  0",
+        "SWT  DYD  CUTPCS"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 10010
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 10010,
+      "transactions": 6,
+      "lastOrderDate": "2026-03-05",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "18",
+      "name": "YOGESH SHARMA",
+      "company": "YOGESH SHARMA",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "20144-18-001545-1-IN",
+        "009655-425051-1-INDI",
+        "4924/01-INDIGO-2/2-T",
+        "14000910  BAMDB3J  C"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 9795
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 9795,
+      "transactions": 8,
+      "lastOrderDate": "2026-03-12",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "19",
+      "name": "RADHA KRISHNA",
+      "company": "RADHA KRISHNA",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 9624
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 9624,
+      "transactions": 3,
+      "lastOrderDate": "2025-10-17",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "20",
+      "name": "PAPPU CLOTH",
+      "company": "PAPPU CLOTH",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "14500033  BDMCQJ  PC",
+        "14252  BAB  PCWF  30",
+        "25717-3010292350-1--",
+        "14015  BA  CTSF  100",
+        "4942-3010284543-1-Fr"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 9315
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 9315,
+      "transactions": 21,
+      "lastOrderDate": "2026-03-14",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "21",
+      "name": "KANTA",
+      "company": "KANTA",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "4942-3010273892-1-Fr",
+        "4242-3010221119-2-BL",
+        "4242-3010221119-1-PI",
+        "69-3010282840-1-Fres",
+        "3221-3010247626-1-LI"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 8993
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 8993,
+      "transactions": 9,
+      "lastOrderDate": "2026-02-25",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "22",
+      "name": "PIYUSH JI",
+      "company": "PIYUSH JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "240580  BD  CTST  RF",
+        "A121A058  BAKKW  CTS",
+        "A121A058  BAKKW  CTP"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 8976
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 8976,
+      "transactions": 3,
+      "lastOrderDate": "2026-02-03",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "23",
+      "name": "REHAN",
+      "company": "REHAN",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "14502  BDMM  PCSF  7",
+        "14015  BA  CTSF  000",
+        "140I21  BA  CT8SF  0"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 8538
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 8538,
+      "transactions": 7,
+      "lastOrderDate": "2026-03-06",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "24",
+      "name": "JANI TEX LLP",
+      "company": "JANI TEX LLP",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "116414  BD  CTPF  82"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 7781
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 7781,
+      "transactions": 1,
+      "lastOrderDate": "2026-02-06",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "dormant",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "25",
+      "name": "PANKAJ JI",
+      "company": "PANKAJ JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "16000108  BAMM  CTET",
+        "A130E218  BDDO  CTSF"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 7431
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 7431,
+      "transactions": 11,
+      "lastOrderDate": "2026-02-25",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "26",
+      "name": "BALAJI",
+      "company": "BALAJI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "25785-3010298501-1-B",
+        "25525-3010260615-1-I",
+        "25722-3010293378-1--",
+        "25599-3010277901-1-A",
+        "15001443  BAMMB  CTS"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 7229
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 7229,
+      "transactions": 13,
+      "lastOrderDate": "2026-03-14",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "27",
+      "name": "HYPOTNIC",
+      "company": "HYPOTNIC",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 7118
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 7118,
+      "transactions": 3,
+      "lastOrderDate": "2025-12-09",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "28",
+      "name": "WASEEM RAJU JI",
+      "company": "WASEEM RAJU JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "130K00  BDDKD  STSF ",
+        "130D07  BD  CTPST  R",
+        "A120B911  BDOKDW4  S",
+        "A132B162  BDDKDWA4  "
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 6736
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 6736,
+      "transactions": 4,
+      "lastOrderDate": "2026-03-09",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "29",
+      "name": "BALA JI",
+      "company": "BALA JI",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "generalist",
+      "preferredFabrics": [
+        "14095  BAMC  CTSF  5",
+        "25175-3010236755-1-I",
+        "25713-3010292311-1-I",
+        "25787-3010298816-1-I",
+        "TWILL581  BDMD  CTSF"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 6501
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 6501,
+      "transactions": 13,
+      "lastOrderDate": "2026-03-14",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "30",
+      "name": "ACC CLOTHING",
+      "company": "ACC CLOTHING",
+      "phone": "",
+      "email": "",
+      "whatsapp": "",
+      "type": "specialist",
+      "preferredFabrics": [
+        "2929-3010166758-1-FL"
+      ],
+      "qualityPreference": [],
+      "volumeRange": {
+        "min": 0,
+        "max": 6372
+      },
+      "paymentBehavior": "good",
+      "totalPurchases": 6372,
+      "transactions": 2,
+      "lastOrderDate": "2026-02-02",
+      "assignedSalesperson": "",
+      "tags": [],
+      "status": "dormant",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "topBuyers": [
+    {
+      "name": "JANI TEX",
+      "totalMeters": 32677,
+      "transactions": 26
+    },
+    {
+      "name": "WASEEM JI",
+      "totalMeters": 22400,
+      "transactions": 14
+    },
+    {
+      "name": "B A G",
+      "totalMeters": 19459,
+      "transactions": 44
+    },
+    {
+      "name": "PAPPU",
+      "totalMeters": 17334,
+      "transactions": 14
+    },
+    {
+      "name": "SATPAL JI",
+      "totalMeters": 17040,
+      "transactions": 20
+    },
+    {
+      "name": "LALIT BANSAL",
+      "totalMeters": 16275,
+      "transactions": 41
+    },
+    {
+      "name": "JANI TEXTILES LLP",
+      "totalMeters": 16236,
+      "transactions": 5
+    },
+    {
+      "name": "PARAS",
+      "totalMeters": 15355,
+      "transactions": 49
+    },
+    {
+      "name": "STC",
+      "totalMeters": 15317,
+      "transactions": 20
+    },
+    {
+      "name": "SANJOG",
+      "totalMeters": 14785,
+      "transactions": 8
+    },
+    {
+      "name": "WASEEM",
+      "totalMeters": 13989,
+      "transactions": 13
+    },
+    {
+      "name": "KEDAR JI",
+      "totalMeters": 13537,
+      "transactions": 21
+    },
+    {
+      "name": "SHARWAN JI",
+      "totalMeters": 12995,
+      "transactions": 16
+    },
+    {
+      "name": "LALIT BANSAL JI",
+      "totalMeters": 11096,
+      "transactions": 25
+    },
+    {
+      "name": "KUNGA",
+      "totalMeters": 11008,
+      "transactions": 12
+    },
+    {
+      "name": "MINTOO JI",
+      "totalMeters": 10264,
+      "transactions": 11
+    },
+    {
+      "name": "PREM ENT",
+      "totalMeters": 10010,
+      "transactions": 6
+    },
+    {
+      "name": "YOGESH SHARMA",
+      "totalMeters": 9795,
+      "transactions": 8
+    },
+    {
+      "name": "RADHA KRISHNA",
+      "totalMeters": 9624,
+      "transactions": 3
+    },
+    {
+      "name": "PAPPU CLOTH",
+      "totalMeters": 9315,
+      "transactions": 21
+    }
+  ],
+  "qualityDistribution": [
+    {
+      "category": "LY-TWILL",
+      "count": 381
+    },
+    {
+      "category": "LY-DOBBY",
+      "count": 180
+    },
+    {
+      "category": "TWILL",
+      "count": 151
+    },
+    {
+      "category": "SATIN-SHTG",
+      "count": 133
+    },
+    {
+      "category": "LY-POPLIN",
+      "count": 129
+    },
+    {
+      "category": "LY-13257",
+      "count": 111
+    },
+    {
+      "category": "LY-RFD",
+      "count": 109
+    },
+    {
+      "category": "LY-SATIN",
+      "count": 102
+    },
+    {
+      "category": "DRILL-16X12",
+      "count": 82
+    },
+    {
+      "category": "MATTY",
+      "count": 78
+    },
+    {
+      "category": "DBY-SHTG",
+      "count": 76
+    },
+    {
+      "category": "RIBSTOP",
+      "count": 59
+    },
+    {
+      "category": "130129",
+      "count": 57
+    },
+    {
+      "category": "PC-TWILL",
+      "count": 54
+    }
+  ],
+  "stockByQuality": [
+    {
+      "quality": "LY-TWILL",
+      "count": 202
+    },
+    {
+      "quality": "LY-DOBBY",
+      "count": 185
+    },
+    {
+      "quality": "DBY-SHTG",
+      "count": 89
+    },
+    {
+      "quality": "WHITE-SHTG",
+      "count": 80
+    },
+    {
+      "quality": "TWILL",
+      "count": 77
+    },
+    {
+      "quality": "VISCORSE",
+      "count": 72
+    },
+    {
+      "quality": "POPLIN",
+      "count": 65
+    },
+    {
+      "quality": "OXFORD",
+      "count": 62
+    },
+    {
+      "quality": "100%CO",
+      "count": 59
+    },
+    {
+      "quality": "TUSSUR",
+      "count": 57
+    },
+    {
+      "quality": "CEMRIC",
+      "count": 57
+    },
+    {
+      "quality": "DRILL-16X12",
+      "count": 54
+    }
+  ],
+  "colorDistribution": [
+    {
+      "color": "OTHER",
+      "count": 5534
+    },
+    {
+      "color": "INDIGO",
+      "count": 67
+    },
+    {
+      "color": "WHITE",
+      "count": 37
+    },
+    {
+      "color": "BLACK",
+      "count": 29
+    },
+    {
+      "color": "BLUE",
+      "count": 28
+    },
+    {
+      "color": "NAVY",
+      "count": 20
+    },
+    {
+      "color": "CHAMBRAY",
+      "count": 8
+    },
+    {
+      "color": "DENIM",
+      "count": 4
+    },
+    {
+      "color": "BROWN",
+      "count": 3
+    },
+    {
+      "color": "GREEN",
+      "count": 2
+    },
+    {
+      "color": "ECRU",
+      "count": 2
+    }
+  ],
+  "monthlySales": [
+    {
+      "month": "2026-02",
+      "meters": 261417
+    },
+    {
+      "month": "2026-03",
+      "meters": 95798
+    }
+  ],
+  "racks": [
+    {
+      "number": 201,
+      "hall": "Hall 2",
+      "goods": "PRINT-SHTG"
+    },
+    {
+      "number": 202,
+      "hall": "Hall 2",
+      "goods": "PRINT-SHTG"
+    },
+    {
+      "number": 203,
+      "hall": "Hall 2",
+      "goods": "PRINT-SHTG"
+    },
+    {
+      "number": 218,
+      "hall": "Hall 2",
+      "goods": "CRAPE"
+    },
+    {
+      "number": 301,
+      "hall": "Hall 3",
+      "goods": "white-a130e937"
+    },
+    {
+      "number": 302,
+      "hall": "Hall 3",
+      "goods": "white-13209"
+    },
+    {
+      "number": 303,
+      "hall": "Hall 3",
+      "goods": "white-a132a680"
+    },
+    {
+      "number": 304,
+      "hall": "Hall 3",
+      "goods": "white-a1300136"
+    },
+    {
+      "number": 305,
+      "hall": "Hall 3",
+      "goods": "white-13000424"
+    },
+    {
+      "number": 306,
+      "hall": "Hall 3",
+      "goods": "white-130q01"
+    },
+    {
+      "number": 307,
+      "hall": "Hall 3",
+      "goods": "A132A583-BLACK"
+    },
+    {
+      "number": 308,
+      "hall": "Hall 3",
+      "goods": "white-a132a845"
+    },
+    {
+      "number": 315,
+      "hall": "Hall 3",
+      "goods": "INDIGO"
+    },
+    {
+      "number": 401,
+      "hall": "Hall 4",
+      "goods": "WHITE-A121A058"
+    },
+    {
+      "number": 402,
+      "hall": "Hall 4",
+      "goods": "WHITE-A121A058"
+    },
+    {
+      "number": 403,
+      "hall": "Hall 4",
+      "goods": "WHITE-14015"
+    },
+    {
+      "number": 404,
+      "hall": "Hall 4",
+      "goods": "WHITE-14015"
+    },
+    {
+      "number": 405,
+      "hall": "Hall 4",
+      "goods": "WHITE-14005"
+    },
+    {
+      "number": 406,
+      "hall": "Hall 4",
+      "goods": "WHITE-140367"
+    },
+    {
+      "number": 407,
+      "hall": "Hall 4",
+      "goods": "WHITE-A145A030"
+    },
+    {
+      "number": 408,
+      "hall": "Hall 4",
+      "goods": "WHITE"
+    },
+    {
+      "number": 409,
+      "hall": "Hall 4",
+      "goods": "white-120i24"
+    },
+    {
+      "number": 410,
+      "hall": "Hall 4",
+      "goods": "white-a120c760"
+    },
+    {
+      "number": 411,
+      "hall": "Hall 4",
+      "goods": "white-a120e363"
+    },
+    {
+      "number": 413,
+      "hall": "Hall 4",
+      "goods": "white-116346"
+    },
+    {
+      "number": 414,
+      "hall": "Hall 4",
+      "goods": "WHITE"
+    },
+    {
+      "number": 416,
+      "hall": "Hall 4",
+      "goods": "white-12607"
+    },
+    {
+      "number": 417,
+      "hall": "Hall 4",
+      "goods": "WHITE-12000349"
+    },
+    {
+      "number": 418,
+      "hall": "Hall 4",
+      "goods": "WHITE-12000349"
+    },
+    {
+      "number": 420,
+      "hall": "Hall 4",
+      "goods": "white-11400045"
+    },
+    {
+      "number": 423,
+      "hall": "Hall 4",
+      "goods": "GATE"
+    },
+    {
+      "number": 424,
+      "hall": "Hall 4",
+      "goods": "GATE"
+    },
+    {
+      "number": 428,
+      "hall": "Hall 4",
+      "goods": "white-120902"
+    },
+    {
+      "number": 501,
+      "hall": "Hall 5",
+      "goods": "A116B150-BLUE"
+    },
+    {
+      "number": 502,
+      "hall": "Hall 5",
+      "goods": "A116B150-BLUE"
+    },
+    {
+      "number": 503,
+      "hall": "Hall 5",
+      "goods": "white-13000192"
+    },
+    {
+      "number": 504,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 505,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 506,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 507,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 508,
+      "hall": "Hall 5",
+      "goods": "WHITE-13200046"
+    },
+    {
+      "number": 509,
+      "hall": "Hall 5",
+      "goods": "WHITE-A140030"
+    },
+    {
+      "number": 514,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 516,
+      "hall": "Hall 5",
+      "goods": "white-1100042"
+    },
+    {
+      "number": 517,
+      "hall": "Hall 5",
+      "goods": "white-a132b194"
+    },
+    {
+      "number": 518,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 519,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 520,
+      "hall": "Hall 5",
+      "goods": "white-130774"
+    },
+    {
+      "number": 521,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 522,
+      "hall": "Hall 5",
+      "goods": "WHITE"
+    },
+    {
+      "number": 602,
+      "hall": "Hall 6",
+      "goods": "SMALL - DBY - BTM"
+    },
+    {
+      "number": 603,
+      "hall": "Hall 6",
+      "goods": "SMALL - 30X20"
+    },
+    {
+      "number": 604,
+      "hall": "Hall 6",
+      "goods": "SMALL - RIBSTOP"
+    },
+    {
+      "number": 608,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - SATIN"
+    },
+    {
+      "number": 609,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - TWILL"
+    },
+    {
+      "number": 610,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - TWILL"
+    },
+    {
+      "number": 611,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - TWILL"
+    },
+    {
+      "number": 612,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - TWILL"
+    },
+    {
+      "number": 613,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - DOBBY"
+    },
+    {
+      "number": 616,
+      "hall": "Hall 6",
+      "goods": "SMALL - LY - MATTY"
+    },
+    {
+      "number": 618,
+      "hall": "Hall 6",
+      "goods": "SMALL - MATTY"
+    },
+    {
+      "number": 619,
+      "hall": "Hall 6",
+      "goods": "SMALL - LY - RD"
+    },
+    {
+      "number": 620,
+      "hall": "Hall 6",
+      "goods": "SMALL - 240243"
+    },
+    {
+      "number": 622,
+      "hall": "Hall 6",
+      "goods": "SMALL - PC - POPLIN"
+    },
+    {
+      "number": 623,
+      "hall": "Hall 6",
+      "goods": "SMALL - DOBBY - SHTG"
+    },
+    {
+      "number": 624,
+      "hall": "Hall 6",
+      "goods": "SMALL - TWILL"
+    },
+    {
+      "number": 625,
+      "hall": "Hall 6",
+      "goods": "SMALL- SATIN - SHTG"
+    },
+    {
+      "number": 626,
+      "hall": "Hall 6",
+      "goods": "TENSIL"
+    },
+    {
+      "number": 627,
+      "hall": "Hall 6",
+      "goods": "SMALL - A280A851"
+    },
+    {
+      "number": 628,
+      "hall": "Hall 6",
+      "goods": "SMALLL - A130162"
+    },
+    {
+      "number": 630,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY-DRILL"
+    },
+    {
+      "number": 631,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY-WHITE"
+    },
+    {
+      "number": 632,
+      "hall": "Hall 6",
+      "goods": "SMALL- A110A519"
+    },
+    {
+      "number": 633,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - KNIT"
+    },
+    {
+      "number": 634,
+      "hall": "Hall 6",
+      "goods": "SMALL - OXORD"
+    },
+    {
+      "number": 635,
+      "hall": "Hall 6",
+      "goods": "SMALL - PC - TWLL"
+    },
+    {
+      "number": 637,
+      "hall": "Hall 6",
+      "goods": "SMALL - A114A170"
+    },
+    {
+      "number": 638,
+      "hall": "Hall 6",
+      "goods": "SMALL - POPLIN"
+    },
+    {
+      "number": 640,
+      "hall": "Hall 6",
+      "goods": "SMALL- SATIN - SHTG"
+    },
+    {
+      "number": 641,
+      "hall": "Hall 6",
+      "goods": "SMALL-A140D663"
+    },
+    {
+      "number": 643,
+      "hall": "Hall 6",
+      "goods": "SMALL- A150C873"
+    },
+    {
+      "number": 645,
+      "hall": "Hall 6",
+      "goods": "SMALL- LY - LADIES COLOR"
+    },
+    {
+      "number": 701,
+      "hall": "Hall 7",
+      "goods": "130129"
+    },
+    {
+      "number": 702,
+      "hall": "Hall 7",
+      "goods": "130129"
+    },
+    {
+      "number": 703,
+      "hall": "Hall 7",
+      "goods": "SMALL-130129"
+    },
+    {
+      "number": 704,
+      "hall": "Hall 7",
+      "goods": "POPLIN"
+    },
+    {
+      "number": 708,
+      "hall": "Hall 7",
+      "goods": "VISCORSE"
+    },
+    {
+      "number": 709,
+      "hall": "Hall 7",
+      "goods": "VISCORSE"
+    },
+    {
+      "number": 710,
+      "hall": "Hall 7",
+      "goods": "VISCORSE"
+    },
+    {
+      "number": 712,
+      "hall": "Hall 7",
+      "goods": "DOBBY-SHTG"
+    },
+    {
+      "number": 714,
+      "hall": "Hall 7",
+      "goods": "DOBBY-SHTG"
+    },
+    {
+      "number": 715,
+      "hall": "Hall 7",
+      "goods": "WHITE-SHIRTING"
+    },
+    {
+      "number": 716,
+      "hall": "Hall 7",
+      "goods": "SATIN-SHTG"
+    },
+    {
+      "number": 717,
+      "hall": "Hall 7",
+      "goods": "LADIES-TWILL SHTG"
+    },
+    {
+      "number": 718,
+      "hall": "Hall 7",
+      "goods": "A130E202"
+    },
+    {
+      "number": 719,
+      "hall": "Hall 7",
+      "goods": "WHITE-TWILL"
+    },
+    {
+      "number": 720,
+      "hall": "Hall 7",
+      "goods": "60S TWILL"
+    },
+    {
+      "number": 722,
+      "hall": "Hall 7",
+      "goods": "TWILL SHTG"
+    },
+    {
+      "number": 723,
+      "hall": "Hall 7",
+      "goods": "TWILL SHTG"
+    },
+    {
+      "number": 724,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 725,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 726,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 727,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 728,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 729,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 730,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 731,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 732,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 733,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 734,
+      "hall": "Hall 7",
+      "goods": "PC-POPLIN"
+    },
+    {
+      "number": 735,
+      "hall": "Hall 7",
+      "goods": "BLACK-POPLIN"
+    },
+    {
+      "number": 736,
+      "hall": "Hall 7",
+      "goods": "WHITE SHIRTING"
+    },
+    {
+      "number": 738,
+      "hall": "Hall 7",
+      "goods": "OXORD SHIRTING"
+    },
+    {
+      "number": 740,
+      "hall": "Hall 7",
+      "goods": "13200045"
+    },
+    {
+      "number": 741,
+      "hall": "Hall 7",
+      "goods": "SMALL-VISCORSE"
+    },
+    {
+      "number": 742,
+      "hall": "Hall 7",
+      "goods": "DBY-SHTG"
+    },
+    {
+      "number": 743,
+      "hall": "Hall 7",
+      "goods": "VISCOSE"
+    },
+    {
+      "number": 744,
+      "hall": "Hall 7",
+      "goods": "VISCOSE"
+    },
+    {
+      "number": 745,
+      "hall": "Hall 7",
+      "goods": "CEMRIC"
+    },
+    {
+      "number": 746,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 747,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 748,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 749,
+      "hall": "Hall 7",
+      "goods": "LY-POPLIN"
+    },
+    {
+      "number": 750,
+      "hall": "Hall 7",
+      "goods": "POLY"
+    },
+    {
+      "number": 751,
+      "hall": "Hall 7",
+      "goods": "PC-POPLIN"
+    },
+    {
+      "number": 753,
+      "hall": "Hall 7",
+      "goods": "LINEN"
+    },
+    {
+      "number": 801,
+      "hall": "Hall 8",
+      "goods": "LYCRE-RD"
+    },
+    {
+      "number": 802,
+      "hall": "Hall 8",
+      "goods": "A150C873"
+    },
+    {
+      "number": 803,
+      "hall": "Hall 8",
+      "goods": "A150C873"
+    },
+    {
+      "number": 804,
+      "hall": "Hall 8",
+      "goods": "LY-A120E524"
+    },
+    {
+      "number": 805,
+      "hall": "Hall 8",
+      "goods": "LY-TWILL"
+    },
+    {
+      "number": 806,
+      "hall": "Hall 8",
+      "goods": "LY-TWILL"
+    },
+    {
+      "number": 807,
+      "hall": "Hall 8",
+      "goods": "LY-TWILL"
+    },
+    {
+      "number": 808,
+      "hall": "Hall 8",
+      "goods": "LYCRE-KNIT"
+    },
+    {
+      "number": 811,
+      "hall": "Hall 8",
+      "goods": "LYCRE-DOBBY"
+    },
+    {
+      "number": 812,
+      "hall": "Hall 8",
+      "goods": "A120D870"
+    },
+    {
+      "number": 813,
+      "hall": "Hall 8",
+      "goods": "A120B275"
+    },
+    {
+      "number": 814,
+      "hall": "Hall 8",
+      "goods": "LY-SATIN"
+    },
+    {
+      "number": 815,
+      "hall": "Hall 8",
+      "goods": "LY-13257"
+    },
+    {
+      "number": 816,
+      "hall": "Hall 8",
+      "goods": "LY-13257"
+    },
+    {
+      "number": 820,
+      "hall": "Hall 8",
+      "goods": "LY-DRILL"
+    },
+    {
+      "number": 824,
+      "hall": "Hall 8",
+      "goods": "LY-A120E271"
+    },
+    {
+      "number": 825,
+      "hall": "Hall 8",
+      "goods": "LY-A240A858"
+    },
+    {
+      "number": 826,
+      "hall": "Hall 8",
+      "goods": "120H19"
+    },
+    {
+      "number": 827,
+      "hall": "Hall 8",
+      "goods": "1.2e+95"
+    },
+    {
+      "number": 828,
+      "hall": "Hall 8",
+      "goods": "LY-A124A632"
+    },
+    {
+      "number": 829,
+      "hall": "Hall 8",
+      "goods": "LY-A120B275"
+    },
+    {
+      "number": 830,
+      "hall": "Hall 8",
+      "goods": "12000162"
+    },
+    {
+      "number": 831,
+      "hall": "Hall 8",
+      "goods": "120H99"
+    },
+    {
+      "number": 833,
+      "hall": "Hall 8",
+      "goods": "SATIN BOTTOM"
+    },
+    {
+      "number": 838,
+      "hall": "Hall 8",
+      "goods": "RAISING"
+    },
+    {
+      "number": 901,
+      "hall": "Hall 9",
+      "goods": "LYCRE-TWILL"
+    },
+    {
+      "number": 902,
+      "hall": "Hall 9",
+      "goods": "LYCRE-TWILL"
+    },
+    {
+      "number": 903,
+      "hall": "Hall 9",
+      "goods": "LYCRE-TWILL"
+    },
+    {
+      "number": 904,
+      "hall": "Hall 9",
+      "goods": "LYCRE-TWILL"
+    },
+    {
+      "number": 905,
+      "hall": "Hall 9",
+      "goods": "LYCRE-TWILL"
+    },
+    {
+      "number": 906,
+      "hall": "Hall 9",
+      "goods": "LY-MATTY"
+    },
+    {
+      "number": 908,
+      "hall": "Hall 9",
+      "goods": "A120D870"
+    },
+    {
+      "number": 913,
+      "hall": "Hall 9",
+      "goods": "4-WAY-LYCRE"
+    },
+    {
+      "number": 916,
+      "hall": "Hall 9",
+      "goods": "132340"
+    },
+    {
+      "number": 919,
+      "hall": "Hall 9",
+      "goods": "SATIN-SHIRTING"
+    },
+    {
+      "number": 920,
+      "hall": "Hall 9",
+      "goods": "SATIN-SHIRTING"
+    },
+    {
+      "number": 921,
+      "hall": "Hall 9",
+      "goods": "TWILL-130D07"
+    },
+    {
+      "number": 922,
+      "hall": "Hall 9",
+      "goods": "TWILL-130D07"
+    },
+    {
+      "number": 923,
+      "hall": "Hall 9",
+      "goods": "dobby-bottom"
+    },
+    {
+      "number": 924,
+      "hall": "Hall 9",
+      "goods": "A116A980"
+    },
+    {
+      "number": 925,
+      "hall": "Hall 9",
+      "goods": "TWILL-130D07"
+    },
+    {
+      "number": 927,
+      "hall": "Hall 9",
+      "goods": "SATIN-SHIRTING"
+    },
+    {
+      "number": 928,
+      "hall": "Hall 9",
+      "goods": "LIN-TWIL"
+    },
+    {
+      "number": 932,
+      "hall": "Hall 9",
+      "goods": "A120B819-5300075677"
+    },
+    {
+      "number": 936,
+      "hall": "Hall 9",
+      "goods": "LADIES - LY"
+    },
+    {
+      "number": 937,
+      "hall": "Hall 9",
+      "goods": "A116B330"
+    },
+    {
+      "number": 939,
+      "hall": "Hall 9",
+      "goods": "A120C498"
+    },
+    {
+      "number": 940,
+      "hall": "Hall 9",
+      "goods": "240243"
+    },
+    {
+      "number": 941,
+      "hall": "Hall 9",
+      "goods": "A116B319"
+    },
+    {
+      "number": 942,
+      "hall": "Hall 9",
+      "goods": "A120A440"
+    },
+    {
+      "number": 1001,
+      "hall": "Hall 10",
+      "goods": "A130162"
+    },
+    {
+      "number": 1002,
+      "hall": "Hall 10",
+      "goods": "A130162"
+    },
+    {
+      "number": 1003,
+      "hall": "Hall 10",
+      "goods": "A130162"
+    },
+    {
+      "number": 1004,
+      "hall": "Hall 10",
+      "goods": "A130162"
+    },
+    {
+      "number": 1005,
+      "hall": "Hall 10",
+      "goods": "A132A453"
+    },
+    {
+      "number": 1006,
+      "hall": "Hall 10",
+      "goods": "A130162"
+    },
+    {
+      "number": 1007,
+      "hall": "Hall 10",
+      "goods": "RIBSTOP"
+    },
+    {
+      "number": 1008,
+      "hall": "Hall 10",
+      "goods": "SHEETING"
+    },
+    {
+      "number": 1010,
+      "hall": "Hall 10",
+      "goods": "DRILL-ECRU"
+    },
+    {
+      "number": 1011,
+      "hall": "Hall 10",
+      "goods": "DRILL-RD"
+    },
+    {
+      "number": 1014,
+      "hall": "Hall 10",
+      "goods": "drill-10x10"
+    },
+    {
+      "number": 1015,
+      "hall": "Hall 10",
+      "goods": "drill-10x10"
+    },
+    {
+      "number": 1016,
+      "hall": "Hall 10",
+      "goods": "DRILL-16X12"
+    },
+    {
+      "number": 1017,
+      "hall": "Hall 10",
+      "goods": "DRILL-16X12"
+    },
+    {
+      "number": 1018,
+      "hall": "Hall 10",
+      "goods": "DRILL-16X12"
+    },
+    {
+      "number": 1022,
+      "hall": "Hall 10",
+      "goods": "2-PLY"
+    },
+    {
+      "number": 1023,
+      "hall": "Hall 10",
+      "goods": "PC-TWILL"
+    },
+    {
+      "number": 1026,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1027,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1028,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1029,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1030,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1031,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1032,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1033,
+      "hall": "Hall 10",
+      "goods": "A109A001"
+    },
+    {
+      "number": 1034,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1035,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1036,
+      "hall": "Hall 10",
+      "goods": "LADIES -16X12"
+    },
+    {
+      "number": 1038,
+      "hall": "Hall 10",
+      "goods": "RD-SMALL-DRILL"
+    },
+    {
+      "number": 1042,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1043,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1044,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1045,
+      "hall": "Hall 10",
+      "goods": "A120C445-MATTY"
+    },
+    {
+      "number": 1046,
+      "hall": "Hall 10",
+      "goods": "TUSSUR"
+    },
+    {
+      "number": 1050,
+      "hall": "Hall 10",
+      "goods": "RD-MATTY"
+    }
+  ],
+  "recentSales": [
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2314",
+      "buyer": "WEAR CRAETION",
+      "item": "A124A148  BDCC  PCSF  82001904",
+      "meters": 156.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2315",
+      "buyer": "WEAR CREATION",
+      "item": "A124A148  BDCC  PCSF  82002033",
+      "meters": 306.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2316",
+      "buyer": "WEAR CREATION",
+      "item": "829/00-EXCEL-3/1-B",
+      "meters": 15.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2317",
+      "buyer": "SAHIL",
+      "item": "132135  BDDK  STPF  3300129089",
+      "meters": 59.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2318",
+      "buyer": "GOPAL SONS",
+      "item": "120431  BAOKJ  CT+PNF  6000279",
+      "meters": 58.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2319",
+      "buyer": "SHREE BALAJI",
+      "item": "9993-13",
+      "meters": 115.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2320",
+      "buyer": "SHREE BALAJI",
+      "item": "6994-41",
+      "meters": 77.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2321",
+      "buyer": "WEAR CREATION",
+      "item": "A140D939  BAMFBQNJ  SPC8DAW0  ",
+      "meters": 488.6
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2322",
+      "buyer": "VIJAY JAIN",
+      "item": "A144A003  OSPP  L5SF  10000313",
+      "meters": 10.0
+    },
+    {
+      "date": "2026-02-01",
+      "voucher": "D-2323",
+      "buyer": "WEAR CEATION",
+      "item": "A120E530  BDOOBJ  CTSF  830022",
+      "meters": 313.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2324",
+      "buyer": "ROHAN CRAETION",
+      "item": "26909-SL",
+      "meters": 88.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2325",
+      "buyer": "ROHAN CREATION",
+      "item": "11000035  BDOK  STPST  RFD0000",
+      "meters": 24.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2326",
+      "buyer": "ROHAN CREATION",
+      "item": "10763  BD  CTSF  4400033636",
+      "meters": 57.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2327",
+      "buyer": "MILL RETURN",
+      "item": "A130F162  BAMF  GSCN7SF  30000",
+      "meters": 150.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2328",
+      "buyer": "OM CRAFT",
+      "item": "A120B275  BDKKDW4J  STPF  6200",
+      "meters": 55.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2330",
+      "buyer": "ANURAG TEXTILE",
+      "item": "14000322  BAMCW4  ST8SF  00000",
+      "meters": 18.8
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2331",
+      "buyer": "THREE BROTHERS",
+      "item": "A124A179  BAKKWJ  BSTPHRXF  90",
+      "meters": 116.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2333",
+      "buyer": "ROHAN CREATION",
+      "item": "16000294  BAMMZAN6  CTSF  0000",
+      "meters": 522.4
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2334",
+      "buyer": "K B CORP",
+      "item": "A130D001  OSPP2  JVSF  0000021",
+      "meters": 1418.4
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2336",
+      "buyer": "K B CORP",
+      "item": "A130A723  BAMKDW4  SCMSF  0000",
+      "meters": 944.8
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2337",
+      "buyer": "K B CORP",
+      "item": "A130E341  BAMKDW4  TCSSF  0000",
+      "meters": 1008.2
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2338",
+      "buyer": "RAJAT TARDER",
+      "item": "A160D251  BAMM  CTSF  00000214",
+      "meters": 786.6
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2339",
+      "buyer": "G N INTERNATIONAL",
+      "item": "85795-33181-810192-LIGHT TAUPE",
+      "meters": 33.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2340",
+      "buyer": "ACC CLOTHING",
+      "item": "2929-3010166758-1-FLANNEL CHEC",
+      "meters": 2386.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2341",
+      "buyer": "G N INTERNATIONAL",
+      "item": "16000185  BAMM  CTSF  80002717",
+      "meters": 15.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2342",
+      "buyer": "G N INTERNATIONAL",
+      "item": "14000313  BAMMBA5  CTSF  30000",
+      "meters": 24.4
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2343",
+      "buyer": "ACC CLOTHING",
+      "item": "2929-3010166758-1-FLANNEL CHEC",
+      "meters": 3986.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2344",
+      "buyer": "PIYUSH JI",
+      "item": "A121A058  BAKKW  CTSF  0000021",
+      "meters": 4527.0
+    },
+    {
+      "date": "2026-02-02",
+      "voucher": "D-2345",
+      "buyer": "PIYUSH JI",
+      "item": "A121A058  BAKKW  CTPST  RFD000",
+      "meters": 1932.6
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2348",
+      "buyer": "PIYUSH JI",
+      "item": "240580  BD  CTST  RFD0000000",
+      "meters": 2516.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2349",
+      "buyer": "SUFIYA",
+      "item": "A120A676-Y/D",
+      "meters": 102.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2350",
+      "buyer": "SHRADDHA TRADING",
+      "item": "A120E828  BAMCW4  PCFXHRTPI  8",
+      "meters": 239.1
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2351",
+      "buyer": "SHRADDHA TRADING",
+      "item": "A116B252  BAMFW  SPCB7SF  3000",
+      "meters": 201.3
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2352",
+      "buyer": "ELITE WEAR",
+      "item": "13257  BADKA  ST8WF  700008403",
+      "meters": 94.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2353",
+      "buyer": "K B CORP",
+      "item": "A2A0A551  BAEE  JVSF  00000214",
+      "meters": 2639.7
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2354",
+      "buyer": "ELITE WEAR",
+      "item": "A120D870  BDKKDWV4J  STPF  330",
+      "meters": 69.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2355",
+      "buyer": "SHARWAN JI",
+      "item": "12000162  BDCKDW4  STSF  82001",
+      "meters": 2259.5
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2356",
+      "buyer": "SHARWAN JI",
+      "item": "A120E271  BDMKDJ  STSF  820020",
+      "meters": 1718.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2357",
+      "buyer": "SHARWAN JI",
+      "item": "120H19  BDKKJ  STSF  820021465",
+      "meters": 1145.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2358",
+      "buyer": "SHARWAN JI",
+      "item": "120H99  BDOK  STPF  8300207139",
+      "meters": 580.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2359",
+      "buyer": "VISHAL JI",
+      "item": "130176  BD  CTSF  8400204516",
+      "meters": 60.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2360",
+      "buyer": "BAL GOPALA FASHION",
+      "item": "120E93  BDCKD  STSF  930011261",
+      "meters": 90.0
+    },
+    {
+      "date": "2026-02-03",
+      "voucher": "D-2361",
+      "buyer": "BAL GOPAL FASHION",
+      "item": "A130C646  BACC  SCV5WXF  30000",
+      "meters": 26.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2295",
+      "buyer": "HENSBERG",
+      "item": "14015  BACM  CTSF  0000021198",
+      "meters": 110.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2362",
+      "buyer": "ROHAN CREATION",
+      "item": "14015  BACM  CTSF  0000021198",
+      "meters": 1020.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2363",
+      "buyer": "DM",
+      "item": "54287-SL",
+      "meters": 33.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2364",
+      "buyer": "RAJAT TARDER",
+      "item": "13200046  BADD  CV+5NF  RFP 43",
+      "meters": 80.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2365",
+      "buyer": "RAJAT TARDER",
+      "item": "14000313  BAMMBJ  CT+NF  50000",
+      "meters": 112.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2366",
+      "buyer": "BLUE BRAKER",
+      "item": "140367  BDMMBJ  CTDA  93001197",
+      "meters": 50.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2367",
+      "buyer": "BLUE BRAKER",
+      "item": "14015  BACM  CTSF  0000021198",
+      "meters": 125.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2368",
+      "buyer": "SHRADDHA TRADING",
+      "item": "A132A791  BDDDJ  CV5SF  830021",
+      "meters": 291.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2369",
+      "buyer": "SALE POINT",
+      "item": "14418-SST",
+      "meters": 53.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2371",
+      "buyer": "IMRAN JI",
+      "item": "A140G939  OSPP  STSF  0W000000",
+      "meters": 1383.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2372",
+      "buyer": "PATWA JI",
+      "item": "14015  BACM  CTSF  0000021198",
+      "meters": 769.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2373",
+      "buyer": "INDRESH",
+      "item": "130Q01  BDMO  CTSF  0W00000000",
+      "meters": 1319.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2374",
+      "buyer": "PATWA JI",
+      "item": "34506-WHITE",
+      "meters": 105.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2375",
+      "buyer": "SALE POINT",
+      "item": "12000267  BAKK  TABET  6000026",
+      "meters": 23.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2377",
+      "buyer": "KUNGA",
+      "item": "A240A436  BDEKDW4  STSF  0W000",
+      "meters": 971.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2378",
+      "buyer": "LALIT BANSAL JI",
+      "item": "A112A513  BDOO  CTSF  0W000000",
+      "meters": 1265.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2379",
+      "buyer": "UROOJ",
+      "item": "14095  BAMMC  CTSF  8000282534",
+      "meters": 10.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2381",
+      "buyer": "WASEEM",
+      "item": "A116B443  BDKK  CTSF  0W000000",
+      "meters": 1098.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2382",
+      "buyer": "WASEEM JI",
+      "item": "120H54  BDKO  CTSF  0W00000000",
+      "meters": 1184.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2383",
+      "buyer": "WASEEM JI",
+      "item": "A120E340  BDCC  CTSF  0W000000",
+      "meters": 1594.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2384",
+      "buyer": "SUMGAL JI",
+      "item": "A124A478  BDDKW4  STSF  0W0000",
+      "meters": 1834.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2385",
+      "buyer": "ROHAN CREATION",
+      "item": "150109  BD  CTSF  0W00000000",
+      "meters": 1012.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2386",
+      "buyer": "HASSANAD",
+      "item": "14500151  BDMM  PCSF  0W000000",
+      "meters": 751.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2387",
+      "buyer": "RAJESH SHARMA",
+      "item": "14500151  BDMM  PCSF  0W000000",
+      "meters": 1015.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2388",
+      "buyer": "LALIT BANSAL",
+      "item": "11600050  BDOKDW4  STSF  0W000",
+      "meters": 1187.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2389",
+      "buyer": "LALIT BANSAL",
+      "item": "A120E409  BDMM  CTSF  0W000000",
+      "meters": 1001.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2390",
+      "buyer": "KEDAR",
+      "item": "A130E974  BDCC  CTSF  0W000000",
+      "meters": 1168.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2391",
+      "buyer": "LALIT BANSAL",
+      "item": "A130E974  BDCC  CTSF  0W000000",
+      "meters": 1160.0
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2392",
+      "buyer": "LALIT BANSAL",
+      "item": "13000407  BDDDB  CTPST  RFD000",
+      "meters": 1571.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2393",
+      "buyer": "KUNGA",
+      "item": "12000162  BDCKDW4  STPST  RFD0",
+      "meters": 1691.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2394",
+      "buyer": "KUNGA",
+      "item": "A240A325  BDEKDWA4  STSF  0W00",
+      "meters": 969.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2395",
+      "buyer": "PRIVEN CHOICE",
+      "item": "A107A185  BDOOO  CTSF  0W00000",
+      "meters": 1015.5
+    },
+    {
+      "date": "2026-02-04",
+      "voucher": "D-2396",
+      "buyer": "PRAVIN CHOICE",
+      "item": "A106A002  BDOOO  CTSF  0W00000",
+      "meters": 770.5
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2332",
+      "buyer": "STC",
+      "item": "A116B372  BDOCQ  SCPSF  0W0000",
+      "meters": 120.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2397",
+      "buyer": "PIYUSH GOEL",
+      "item": "A121A058  BDKKW  CTSF  0W00000",
+      "meters": 473.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2398",
+      "buyer": "PIYUSH GOEL",
+      "item": "10845  BDOKDW4  STSF  0W000000",
+      "meters": 3441.5
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2399",
+      "buyer": "SUMGAL",
+      "item": "A120E061  BAKK  TCPABET  00000",
+      "meters": 662.6
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2401",
+      "buyer": "SAMEER THAKUR",
+      "item": "14252  BAB  PCWF  5000076854",
+      "meters": 30.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2402",
+      "buyer": "THREE BRIOTHERS",
+      "item": "A120D870  BDKKDWV4J  STPF  330",
+      "meters": 70.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2403",
+      "buyer": "NOTANDAS",
+      "item": "A120D641  BDOOJ  CTPF  6300294",
+      "meters": 168.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2404",
+      "buyer": "NOTANDAS",
+      "item": "A120C445  BDKOA  CTPF  6300278",
+      "meters": 93.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2405",
+      "buyer": "PREM",
+      "item": "6262-3010277527-1-Fresh",
+      "meters": 64.0
+    },
+    {
+      "date": "2026-02-05",
+      "voucher": "D-2406",
+      "buyer": "INTERNATIONAL FASHION",
+      "item": "120H99  BDOK  STPF  6200280007",
+      "meters": 32.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2407",
+      "buyer": "JAI DURGA",
+      "item": "A140E548  BDMCD  STSF  0W00000",
+      "meters": 100.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2408",
+      "buyer": "MOHD LAHIK",
+      "item": "A140E548  BDMCD  STSF  0W00000",
+      "meters": 140.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2409",
+      "buyer": "MOHD LALIK JI",
+      "item": "A120E271  BDMKD  STPF  0W00000",
+      "meters": 285.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2410",
+      "buyer": "WASEEM JI",
+      "item": "130K00  BDMKD  STPF  0W0000000",
+      "meters": 2057.5
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2411",
+      "buyer": "WASEEM JI",
+      "item": "A140F621  BDMCDW4  STSF  0W000",
+      "meters": 1537.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2412",
+      "buyer": "WASEEM JI",
+      "item": "A132B907  BDMKD  STSF  0W00000",
+      "meters": 1343.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2413",
+      "buyer": "WASEEM JI",
+      "item": "A120C623  BDOCD4  STPF  0W0000",
+      "meters": 4360.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2414",
+      "buyer": "WASEEM JI",
+      "item": "A120E271  BDMKD  STPF  0W00000",
+      "meters": 1755.5
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2415",
+      "buyer": "RAJAT TRADERS",
+      "item": "6262-3010283021-1-VOILE-Fresh",
+      "meters": 208.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2416",
+      "buyer": "BEE GEE",
+      "item": "130D07  BD  CTPST  RFD0000000",
+      "meters": 2507.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2417",
+      "buyer": "VIJAY SHIRT",
+      "item": "A116B372  BDOCQ  SCPSF  0W0000",
+      "meters": 504.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2419",
+      "buyer": "JANI TEX LLP",
+      "item": "116414  BD  CTPF  8200222409",
+      "meters": 7781.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2420",
+      "buyer": "PATWA JI",
+      "item": "140I21  BDMMB  CTSF  0W0000000",
+      "meters": 111.0
+    },
+    {
+      "date": "2026-02-06",
+      "voucher": "D-2421",
+      "buyer": "AJAY JAIN",
+      "item": "SWT  DYD  CUTPCS",
+      "meters": 263.3
+    }
+  ],
+  "stockSample": [
+    {
+      "code": "009655-425051-1-INDIGO-FRESH",
+      "pcs": 1,
+      "meters": 42.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "011574-427457-1-INDIGO-FRESH",
+      "pcs": 1,
+      "meters": 65.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "020453-18-019754-1-BLUE-FRESH",
+      "pcs": 3,
+      "meters": 183.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "020453-18-019754-1-CHAMBRAY-FRESH",
+      "pcs": 1,
+      "meters": 55.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "020453-18-019754-1-DENIM-FRESH",
+      "pcs": 1,
+      "meters": 65.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "020453-18-019754-1--FRESH",
+      "pcs": 1,
+      "meters": 15.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "020453-18-019754-1-INDIGO-FRESH",
+      "pcs": 1,
+      "meters": 92.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "062  BDCCAJ  CTCH  3200119238",
+      "pcs": 14,
+      "meters": 462.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "062  BDCCAJ  CTCH  3200119249",
+      "pcs": 21,
+      "meters": 807.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "062  BDCCAJ  CTCH  6200305226",
+      "pcs": 8,
+      "meters": 196.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "062  BDCCAJ  CTCH  6200305449",
+      "pcs": 8,
+      "meters": 259.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "062  BDCCAJ  CTCH  8200204868",
+      "pcs": 13,
+      "meters": 432.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "062  BDCCAJ  CTST  RFD0000000",
+      "pcs": 4,
+      "meters": 65.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "066  BDCCJ  CTCH  3200135738",
+      "pcs": 5,
+      "meters": 90.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "066  BDCCJ  CTCH  3200136558",
+      "pcs": 2,
+      "meters": 62.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "0662  BDCCY  CTCH  3200119238",
+      "pcs": 1,
+      "meters": 40.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "0662  BDCCY  CTCH  3200135507",
+      "pcs": 3,
+      "meters": 47.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "0662  BDCCY  CTCH  4200036967",
+      "pcs": 7,
+      "meters": 270.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "0662  BDCCY  CTCH  6200282788",
+      "pcs": 2,
+      "meters": 62.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10031-11",
+      "pcs": 1,
+      "meters": 103.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "103  BDKKJ  CTCH  2200027076",
+      "pcs": 13,
+      "meters": 567.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "103  BDKKJ  CTCH  3200132057",
+      "pcs": 5,
+      "meters": 238.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "103  BDKKJ  CTCH  8200215529",
+      "pcs": 3,
+      "meters": 158.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "103  BDKKJ  CTHR  6200299039",
+      "pcs": 6,
+      "meters": 99.0,
+      "quality": "TUSSUR"
+    },
+    {
+      "code": "1067-GREEN",
+      "pcs": 1,
+      "meters": 31.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10700002  BDOO  CTPF  6200283869",
+      "pcs": 1,
+      "meters": 30.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10763  BA  CT+PNF  RFP 1527",
+      "pcs": 2,
+      "meters": 137.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10763  BD  CTPST  RFD0000000",
+      "pcs": 3,
+      "meters": 123.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10763  BD  CTSF  6200293399",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10763  BD  CTST  RFD0000000",
+      "pcs": 1,
+      "meters": 7.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10828  BD  STSF  6400282227",
+      "pcs": 1,
+      "meters": 27.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10828  BD  STSF  8300207839",
+      "pcs": 1,
+      "meters": 10.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "10828  MOK  STNF  RFD0000000",
+      "pcs": 2,
+      "meters": 20.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000008  BAOO  CT+PNF  1000033601",
+      "pcs": 1,
+      "meters": 30.0,
+      "quality": "DRILL-10X10"
+    },
+    {
+      "code": "11000008  BDOO  CTPF  6400307686",
+      "pcs": 1,
+      "meters": 7.0,
+      "quality": "DRILL-10X10"
+    },
+    {
+      "code": "11000008  BDOO  CTSF  6200297766",
+      "pcs": 1,
+      "meters": 28.0,
+      "quality": "DRILL-10X10"
+    },
+    {
+      "code": "11000008  BDOO  CTSF  8200220929",
+      "pcs": 2,
+      "meters": 88.0,
+      "quality": "DRILL-10X10"
+    },
+    {
+      "code": "11000008  BDOO  CTSF  8200221019",
+      "pcs": 1,
+      "meters": 25.0,
+      "quality": "DRILL-10X10"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  4200031667",
+      "pcs": 1,
+      "meters": 62.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  6400271966",
+      "pcs": 3,
+      "meters": 127.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  7100266206",
+      "pcs": 3,
+      "meters": 70.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  8300101487",
+      "pcs": 1,
+      "meters": 92.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  8300201457",
+      "pcs": 3,
+      "meters": 104.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  8300201487",
+      "pcs": 1,
+      "meters": 15.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000010  BDOOA  CTCH  9300113639",
+      "pcs": 4,
+      "meters": 104.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000021  HOKW  STPNF  RFD0000000",
+      "pcs": 1,
+      "meters": 22.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000035  BDKKD  STPF  7200282708",
+      "pcs": 2,
+      "meters": 74.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000035  BDOK  STPST  RFD0000000",
+      "pcs": 1,
+      "meters": 58.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000035  BDOKJ  STPF  1100021826",
+      "pcs": 1,
+      "meters": 38.5,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000045  BDOO  CTHR  8300226699",
+      "pcs": 1,
+      "meters": 43.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000045  BDOO  CTPF  7200283208",
+      "pcs": 4,
+      "meters": 117.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000066  BDOK  CTDA  0W00024290",
+      "pcs": 1,
+      "meters": 17.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000066  BDOK  CTDA  3300135457",
+      "pcs": 1,
+      "meters": 21.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000068  BAKKWO  CT2RCDA  6000031992",
+      "pcs": 1,
+      "meters": 36.8,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000068  BAKKWO  CT2RCDA  6000291891",
+      "pcs": 2,
+      "meters": 91.4,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11000068  BAKKWO  CT2RCDA  9000126444",
+      "pcs": 2,
+      "meters": 23.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110118  BD  CTPF  1100022106",
+      "pcs": 1,
+      "meters": 110.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110118  BDOO2  CTSF  8300226379",
+      "pcs": 1,
+      "meters": 8.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110143  BD  CT9PF  KITYLUK000",
+      "pcs": 1,
+      "meters": 38.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110143  BD  CTPF  3200135538",
+      "pcs": 1,
+      "meters": 46.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110143  BD  CTPF  6300266039",
+      "pcs": 1,
+      "meters": 23.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110143  BD  CTPF  6400305066",
+      "pcs": 1,
+      "meters": 9.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110143  BD  CTPF  9200069989",
+      "pcs": 1,
+      "meters": 29.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTCH  7200263537",
+      "pcs": 3,
+      "meters": 144.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTCH  7200283318",
+      "pcs": 4,
+      "meters": 184.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTCH  8000104528",
+      "pcs": 2,
+      "meters": 26.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTCH  8200226869",
+      "pcs": 1,
+      "meters": 30.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTPF  3200136159",
+      "pcs": 1,
+      "meters": 15.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTPF  5400085046",
+      "pcs": 1,
+      "meters": 14.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTPF  6200306659",
+      "pcs": 1,
+      "meters": 31.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTPF  9300124429",
+      "pcs": 1,
+      "meters": 11.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  2300029268",
+      "pcs": 1,
+      "meters": 70.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  8200178517",
+      "pcs": 1,
+      "meters": 16.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  8300165809",
+      "pcs": 4,
+      "meters": 79.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  8300206059",
+      "pcs": 1,
+      "meters": 108.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  8300223959",
+      "pcs": 1,
+      "meters": 10.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BD  CTSF  9300123939",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110159  BDOOQ2  CTCH  7200274497",
+      "pcs": 1,
+      "meters": 21.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110162  BDOKD  STSF  3300135587",
+      "pcs": 1,
+      "meters": 40.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110162  BDOKD  STSF  6400305146",
+      "pcs": 1,
+      "meters": 19.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "110162  BDOKD  STSF  7300282337",
+      "pcs": 1,
+      "meters": 17.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11200022  BAOO  CT+PNF  1000034321",
+      "pcs": 2,
+      "meters": 92.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11200022  BDOO  CTPF  7400281966",
+      "pcs": 2,
+      "meters": 20.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11200022  HOO  CT+NF  RFD0000000",
+      "pcs": 1,
+      "meters": 20.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11258  BDOO  CTSF  0W00022570",
+      "pcs": 1,
+      "meters": 17.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11400044  BDKK  PCCH  7200266936",
+      "pcs": 4,
+      "meters": 80.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11400044  BDKK  PCCH  7200278238",
+      "pcs": 1,
+      "meters": 14.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11400044  BDKK  PCCH  7200283196",
+      "pcs": 1,
+      "meters": 40.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11400044  BDKK  PCCH  8200226629",
+      "pcs": 1,
+      "meters": 13.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11400044  BDKK  PCCH  9300124829",
+      "pcs": 1,
+      "meters": 9.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  0W00024380",
+      "pcs": 1,
+      "meters": 7.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  7200264967",
+      "pcs": 1,
+      "meters": 85.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  8200199669",
+      "pcs": 1,
+      "meters": 33.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  8300188809",
+      "pcs": 1,
+      "meters": 111.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  9300112789",
+      "pcs": 1,
+      "meters": 37.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BD  PCSF  AS00000000",
+      "pcs": 1,
+      "meters": 119.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BDKK  PCSF  6200303766",
+      "pcs": 1,
+      "meters": 46.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11403  BDKK  PCSF  AS00000000",
+      "pcs": 1,
+      "meters": 82.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "114136  BD  CPSF  9300119589",
+      "pcs": 2,
+      "meters": 129.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11574-3010248624-1-LIGHT CHAM-FRESH",
+      "pcs": 1,
+      "meters": 43.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11574-3010298455-1-FRESH",
+      "pcs": 2,
+      "meters": 50.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11574-3010298455-1--FRESH",
+      "pcs": 1,
+      "meters": 25.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11574-3010298455-1-INDIGO CHAMBRAY-FRESH",
+      "pcs": 4,
+      "meters": 184.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11574-3010298455-1-INDIGO-FRESH",
+      "pcs": 1,
+      "meters": 70.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600007  BDOO  CTPST  RFD0000000",
+      "pcs": 1,
+      "meters": 20.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600007  BDOO  CTSF  3200134077",
+      "pcs": 1,
+      "meters": 36.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600007  BDOO  CTSF  7200281077",
+      "pcs": 1,
+      "meters": 52.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600007  BDOO  CTSF  8200223229",
+      "pcs": 2,
+      "meters": 71.5,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCOSF  7300261958",
+      "pcs": 2,
+      "meters": 110.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCSF  6200271808",
+      "pcs": 2,
+      "meters": 200.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCSF  7200264757",
+      "pcs": 2,
+      "meters": 99.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCSF  8200201238",
+      "pcs": 4,
+      "meters": 298.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCSF  8200204509",
+      "pcs": 2,
+      "meters": 267.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600009  BDKO  PCSF  9300112639",
+      "pcs": 2,
+      "meters": 170.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600010  BAOO  CTBRF  6000021382",
+      "pcs": 2,
+      "meters": 25.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600010  BAOO  CTBRF  8000264044",
+      "pcs": 2,
+      "meters": 49.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600011  BDOOJ  CTST  RFD0000000",
+      "pcs": 1,
+      "meters": 13.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600011  MKK  CTST  RFD0000000",
+      "pcs": 1,
+      "meters": 19.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600034  BDOO  CTPF  8200194346",
+      "pcs": 1,
+      "meters": 100.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600034  BDOO  CTPF  9300098579",
+      "pcs": 2,
+      "meters": 79.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600050  BDOKDW4  STPF  3200134447",
+      "pcs": 1,
+      "meters": 31.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600050  BDOKDW4  STPF  6400301286",
+      "pcs": 1,
+      "meters": 15.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600050  BDOKDW4  STPF  7200280868",
+      "pcs": 1,
+      "meters": 41.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTPF  8300223249",
+      "pcs": 3,
+      "meters": 181.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTPF  8300225399",
+      "pcs": 3,
+      "meters": 170.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  2200016877",
+      "pcs": 7,
+      "meters": 197.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  2200026178",
+      "pcs": 1,
+      "meters": 30.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  2200030316",
+      "pcs": 1,
+      "meters": 59.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  5300061119",
+      "pcs": 9,
+      "meters": 481.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  5300076099",
+      "pcs": 5,
+      "meters": 194.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  6100259216",
+      "pcs": 1,
+      "meters": 28.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  6400225576",
+      "pcs": 2,
+      "meters": 55.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  6400294906",
+      "pcs": 2,
+      "meters": 270.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  6400297586",
+      "pcs": 3,
+      "meters": 67.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  6400304036",
+      "pcs": 1,
+      "meters": 7.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  7200262127",
+      "pcs": 2,
+      "meters": 112.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  7200281718",
+      "pcs": 1,
+      "meters": 98.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8000137277",
+      "pcs": 4,
+      "meters": 51.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200191478",
+      "pcs": 3,
+      "meters": 33.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200205688",
+      "pcs": 1,
+      "meters": 42.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200224178",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200224418",
+      "pcs": 3,
+      "meters": 77.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200225909",
+      "pcs": 7,
+      "meters": 240.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200225959",
+      "pcs": 3,
+      "meters": 42.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200226419",
+      "pcs": 1,
+      "meters": 41.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8200226999",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8300215959",
+      "pcs": 3,
+      "meters": 176.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  8300218869",
+      "pcs": 1,
+      "meters": 81.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  9300124929",
+      "pcs": 3,
+      "meters": 105.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600076  BDOO  CTSF  AS00000000",
+      "pcs": 1,
+      "meters": 90.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600106  MOK  CTPF  6400279906",
+      "pcs": 1,
+      "meters": 30.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600109  BDOKD  STPF  6400229997",
+      "pcs": 1,
+      "meters": 28.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600109  BDOKD  STSF  AS00000000",
+      "pcs": 1,
+      "meters": 45.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11600109  BDOKJ  STPF  7300276528",
+      "pcs": 1,
+      "meters": 72.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116195  BDOO  CTCH  6400305966",
+      "pcs": 1,
+      "meters": 29.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116195  BDOO  CTCH  8300164169",
+      "pcs": 1,
+      "meters": 51.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116195  BDOO  CTPST  RFD0000000",
+      "pcs": 9,
+      "meters": 887.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTCH  2200029787",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTCH  7200282007",
+      "pcs": 1,
+      "meters": 15.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTCH  7200282957",
+      "pcs": 1,
+      "meters": 32.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTCH  8200184267",
+      "pcs": 1,
+      "meters": 11.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTCH  8200224079",
+      "pcs": 5,
+      "meters": 145.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTSF  8200172949",
+      "pcs": 2,
+      "meters": 96.5,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDA  CTSF  9300121799",
+      "pcs": 2,
+      "meters": 146.5,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDOOJ  CTHR  2400029036",
+      "pcs": 1,
+      "meters": 77.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116199  BDOOJ  CTSF  7200278247",
+      "pcs": 1,
+      "meters": 50.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BAOOAJ  CT+PNF  8000085081",
+      "pcs": 3,
+      "meters": 123.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTCH  2300022579",
+      "pcs": 1,
+      "meters": 13.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTCH  8300216609",
+      "pcs": 1,
+      "meters": 19.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  2300030308",
+      "pcs": 2,
+      "meters": 74.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  6400290146",
+      "pcs": 1,
+      "meters": 14.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  8200178026",
+      "pcs": 3,
+      "meters": 103.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  8200222409",
+      "pcs": 2,
+      "meters": 34.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  8300225149",
+      "pcs": 1,
+      "meters": 54.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTPF  8300226439",
+      "pcs": 3,
+      "meters": 97.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  2300025587",
+      "pcs": 1,
+      "meters": 51.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  5300012119",
+      "pcs": 2,
+      "meters": 21.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  6400266436",
+      "pcs": 1,
+      "meters": 62.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  7200262117",
+      "pcs": 1,
+      "meters": 12.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  8300195119",
+      "pcs": 7,
+      "meters": 218.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  8300198159",
+      "pcs": 2,
+      "meters": 112.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BD  CTSF  8400203647",
+      "pcs": 2,
+      "meters": 72.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BDOOA  Q1CTPF  4200037519",
+      "pcs": 1,
+      "meters": 11.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "116414  BDOOA  Q1CTPF  8200226848",
+      "pcs": 1,
+      "meters": 9.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BAOOJ  CTSF  6000038984",
+      "pcs": 6,
+      "meters": 281.1,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  1100022896",
+      "pcs": 1,
+      "meters": 9.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  2300029448",
+      "pcs": 2,
+      "meters": 120.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  2300029938",
+      "pcs": 1,
+      "meters": 17.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  2300030469",
+      "pcs": 3,
+      "meters": 139.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  3200133096",
+      "pcs": 2,
+      "meters": 118.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  3200136597",
+      "pcs": 1,
+      "meters": 8.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  6100307506",
+      "pcs": 1,
+      "meters": 9.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  6200303429",
+      "pcs": 1,
+      "meters": 19.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  8300223369",
+      "pcs": 1,
+      "meters": 39.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  8400170829",
+      "pcs": 3,
+      "meters": 153.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  9300102699",
+      "pcs": 2,
+      "meters": 31.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  9300122479",
+      "pcs": 3,
+      "meters": 174.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTPF  AS00000000",
+      "pcs": 1,
+      "meters": 21.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTSF  0W00024520",
+      "pcs": 1,
+      "meters": 42.0,
+      "quality": "Unclassified"
+    },
+    {
+      "code": "11649  BD  CTSF  1100022506",
+      "pcs": 1,
+      "meters": 11.0,
+      "quality": "Unclassified"
+    }
+  ]
+}
