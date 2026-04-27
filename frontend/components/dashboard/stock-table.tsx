@@ -207,23 +207,6 @@ export function StockTable() {
           </SelectContent>
         </Select>
 
-        <Select
-          value={stockFilters.qualityGrade[0] || 'all'}
-          onValueChange={(value) =>
-            setStockFilters({ qualityGrade: value === 'all' ? [] : [value] })
-          }
-        >
-          <SelectTrigger className="w-[120px]">
-            <SelectValue placeholder="Grade" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Grades</SelectItem>
-            <SelectItem value="A">Grade A</SelectItem>
-            <SelectItem value="B">Grade B</SelectItem>
-            <SelectItem value="C">Grade C</SelectItem>
-            <SelectItem value="D">Grade D</SelectItem>
-          </SelectContent>
-        </Select>
 
         <Select
           value={stockFilters.status[0] || 'all'}
@@ -382,7 +365,6 @@ export function StockTable() {
                 </TableHead>
                 <TableHead>Fabric Type</TableHead>
                 <TableHead>Stock Type</TableHead>
-                <TableHead>Grade</TableHead>
                 <TableHead className="text-right">
                   <Button
                     variant="ghost"
@@ -443,9 +425,6 @@ export function StockTable() {
                     >
                       {stockTypeLabels[stock.stockType]}
                     </Badge>
-                  </TableCell>
-                  <TableCell>
-                    <Badge variant="outline">Grade {stock.qualityGrade}</Badge>
                   </TableCell>
                   <TableCell className="text-right font-mono">
                     {stock.quantity.toLocaleString()}m
@@ -563,7 +542,6 @@ export function StockTable() {
                 <Badge variant="outline" className={stockTypeColors[stock.stockType]}>
                   {stockTypeLabels[stock.stockType]}
                 </Badge>
-                <Badge variant="outline">Grade {stock.qualityGrade}</Badge>
               </div>
             </div>
           ))}

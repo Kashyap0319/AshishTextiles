@@ -130,11 +130,7 @@ export function AIMatching() {
                 </div>
                 <div className="rounded-lg border border-border p-3">
                   <p className="text-xs text-muted-foreground">Quality</p>
-                  <p className="text-lg font-bold">Grade {selectedStock.qualityGrade}</p>
-                </div>
-                <div className="rounded-lg border border-border p-3">
-                  <p className="text-xs text-muted-foreground">Price</p>
-                  <p className="font-mono text-lg font-bold">Rs {selectedStock.purchasePrice}</p>
+                  <p className="text-sm font-medium">{selectedStock.fabricType}</p>
                 </div>
                 <div className="rounded-lg border border-border p-3">
                   <p className="text-xs text-muted-foreground">Age</p>

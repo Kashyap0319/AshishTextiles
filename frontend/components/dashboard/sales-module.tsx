@@ -51,7 +51,6 @@ export function SalesModule() {
     buyer_name: '',
     article_code: '',
     meters: '',
-    price_per_meter: '',
     sale_type: 'dyed',
   })
 
@@ -99,18 +98,16 @@ export function SalesModule() {
     setCreating(true)
     try {
       const meters = parseFloat(saleForm.meters)
-      const price = parseFloat(saleForm.price_per_meter || '0')
       await api.post('/sales/', {
         voucher_number: `S-${Date.now().toString().slice(-6)}`,
         voucher_date: new Date().toISOString().split('T')[0],
         narration: saleForm.buyer_name,
         quantity_meters: meters,
         quantity_pieces: 1,
-        total_amount: meters * price,
         sale_type: saleForm.sale_type,
       })
       setCreateOpen(false)
-      setSaleForm({ buyer_name: '', article_code: '', meters: '', price_per_meter: '', sale_type: 'dyed' })
+      setSaleForm({ buyer_name: '', article_code: '', meters: '', sale_type: 'dyed' })
       // Refresh
       const res = await api.get('/sales/?per_page=50')
       setSales(Array.isArray(res.data) ? res.data : [])
@@ -181,26 +178,16 @@ export function SalesModule() {
                     onChange={(e) => setSaleForm({ ...saleForm, meters: e.target.value })} />
                 </div>
                 <div className="space-y-2">
-                  <Label>Price/Meter</Label>
-                  <Input type="number" placeholder="45.00" value={saleForm.price_per_meter}
-                    onChange={(e) => setSaleForm({ ...saleForm, price_per_meter: e.target.value })} />
+                  <Label>Sale Type</Label>
+                  <Select value={saleForm.sale_type} onValueChange={(v) => setSaleForm({ ...saleForm, sale_type: v })}>
+                    <SelectTrigger><SelectValue /></SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="dyed">Dyed</SelectItem>
+                      <SelectItem value="grey">Grey</SelectItem>
+                    </SelectContent>
+                  </Select>
                 </div>
               </div>
-              <div className="space-y-2">
-                <Label>Sale Type</Label>
-                <Select value={saleForm.sale_type} onValueChange={(v) => setSaleForm({ ...saleForm, sale_type: v })}>
-                  <SelectTrigger><SelectValue /></SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="dyed">Dyed</SelectItem>
-                    <SelectItem value="grey">Grey</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-              {saleForm.meters && saleForm.price_per_meter && (
-                <p className="text-sm text-muted-foreground">
-                  Total: <span className="font-bold text-foreground">Rs {(parseFloat(saleForm.meters) * parseFloat(saleForm.price_per_meter)).toLocaleString()}</span>
-                </p>
-              )}
               <Button onClick={handleCreateSale} disabled={creating} className="w-full">
                 {creating ? <Loader2 className="mr-2 size-4 animate-spin" /> : <ShoppingCart className="mr-2 size-4" />}
                 {creating ? 'Creating...' : 'Create Sale'}
@@ -210,9 +197,9 @@ export function SalesModule() {
         </Dialog>
       </div>
 
-      {/* Summary Cards */}
+      {/* Summary Cards — pricing hidden per Q14 (fixed pricing, no per-sale tracking needed) */}
       {summary && (
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 gap-6">
           <div className="rounded-bento border border-border bg-card p-6 shadow-bento-soft text-center">
             <p className="text-4xl font-display-tight">{summary.total_sales.toLocaleString()}</p>
             <p className="mt-2 text-sm uppercase tracking-wider text-muted-foreground font-semibold">Total Sales</p>
@@ -220,10 +207,6 @@ export function SalesModule() {
           <div className="rounded-bento border border-border bg-card p-6 shadow-bento-soft text-center">
             <p className="text-4xl font-display-tight">{(summary.total_meters / 1000).toFixed(0)}K</p>
             <p className="mt-2 text-sm uppercase tracking-wider text-muted-foreground font-semibold">Meters Sold</p>
-          </div>
-          <div className="rounded-bento border border-border bg-card p-6 shadow-bento-soft text-center">
-            <p className="text-4xl font-display-tight">Rs {(summary.total_amount / 100000).toFixed(1)}L</p>
-            <p className="mt-2 text-sm uppercase tracking-wider text-muted-foreground font-semibold">Total Revenue</p>
           </div>
         </div>
       )}
@@ -248,7 +231,6 @@ export function SalesModule() {
                 <TableHead>Date</TableHead>
                 <TableHead>Buyer</TableHead>
                 <TableHead>Meters</TableHead>
-                <TableHead>Amount</TableHead>
                 <TableHead>Type</TableHead>
               </TableRow>
             </TableHeader>
@@ -262,12 +244,11 @@ export function SalesModule() {
                   <TableCell>{sale.voucher_date ? new Date(sale.voucher_date).toLocaleDateString() : '—'}</TableCell>
                   <TableCell className="font-medium">{sale.narration || '—'}</TableCell>
                   <TableCell>{sale.quantity_meters?.toLocaleString()}m</TableCell>
-                  <TableCell>Rs {sale.total_amount?.toLocaleString()}</TableCell>
                   <TableCell><Badge variant="secondary">{sale.sale_type || 'dyed'}</Badge></TableCell>
                 </TableRow>
               ))}
               {sales.length === 0 && (
-                <TableRow><TableCell colSpan={6} className="text-center py-8 text-muted-foreground">No sales found</TableCell></TableRow>
+                <TableRow><TableCell colSpan={5} className="text-center py-8 text-muted-foreground">No sales found</TableCell></TableRow>
               )}
             </TableBody>
           </Table>

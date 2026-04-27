@@ -70,7 +70,6 @@ export function StockDetailPanel() {
             <Badge variant="outline" className={stockTypeColors[stock.stockType]}>
               {stockTypeLabels[stock.stockType]}
             </Badge>
-            <Badge variant="outline">Grade {stock.qualityGrade}</Badge>
           </div>
 
           {/* Key Metrics */}
