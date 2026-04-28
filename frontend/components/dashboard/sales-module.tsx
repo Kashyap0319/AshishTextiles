@@ -8,6 +8,8 @@ import {
 } from 'lucide-react'
 import api from '@/lib/api'
 import realData from '@/lib/real-data.json'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'

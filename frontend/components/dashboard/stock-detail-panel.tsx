@@ -79,14 +79,6 @@ export function StockDetailPanel() {
               <p className="font-mono text-xl font-bold">{stock.quantity.toLocaleString()}m</p>
             </div>
             <div className="rounded-lg border border-border p-3">
-              <span className="text-xs text-muted-foreground">Purchase Price</span>
-              <p className="font-mono text-xl font-bold">Rs {stock.purchasePrice}</p>
-            </div>
-            <div className="rounded-lg border border-border p-3">
-              <span className="text-xs text-muted-foreground">Selling Price</span>
-              <p className="font-mono text-xl font-bold">Rs {stock.sellingPrice || '-'}</p>
-            </div>
-            <div className="rounded-lg border border-border p-3">
               <span className="text-xs text-muted-foreground">Days in Stock</span>
               <p
                 className={`font-mono text-xl font-bold ${

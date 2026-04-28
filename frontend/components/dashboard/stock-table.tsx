@@ -376,17 +376,6 @@ export function StockTable() {
                     <ArrowUpDown className="ml-1 size-3" />
                   </Button>
                 </TableHead>
-                <TableHead className="text-right">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="-mr-3 h-8 font-medium"
-                    onClick={() => handleSort('purchasePrice')}
-                  >
-                    Price
-                    <ArrowUpDown className="ml-1 size-3" />
-                  </Button>
-                </TableHead>
                 <TableHead>Location</TableHead>
                 <TableHead>
                   <Button
@@ -428,9 +417,6 @@ export function StockTable() {
                   </TableCell>
                   <TableCell className="text-right font-mono">
                     {stock.quantity.toLocaleString()}m
-                  </TableCell>
-                  <TableCell className="text-right font-mono">
-                    Rs {stock.purchasePrice}
                   </TableCell>
                   <TableCell>
                     <Badge variant="secondary" className="font-mono">
@@ -514,10 +500,6 @@ export function StockTable() {
                 <div>
                   <span className="text-muted-foreground">Quantity</span>
                   <p className="font-mono font-medium">{stock.quantity.toLocaleString()}m</p>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Price</span>
-                  <p className="font-mono font-medium">Rs {stock.purchasePrice}</p>
                 </div>
                 <div>
                   <span className="text-muted-foreground">Location</span>
