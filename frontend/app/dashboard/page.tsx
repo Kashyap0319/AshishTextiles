@@ -38,6 +38,9 @@ import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import { Moon, Sun } from 'lucide-react'
 import api from '@/lib/api'
+import { useSalesLock } from '@/lib/sales-lock'
+import { useState, useRef } from 'react'
+import { toast, Toaster } from 'sonner'
 
 const moduleIcons: Record<string, typeof LayoutDashboard> = {
   dashboard: LayoutDashboard, stock: Package, sales: ShoppingCart,
@@ -82,6 +85,25 @@ export default function DashboardPage() {
   const { activeModule, setCommandPaletteOpen, detailPanelOpen } = useAppStore()
   const { theme, setTheme } = useTheme()
   const ModuleIcon = moduleIcons[activeModule] || LayoutDashboard
+  const unlocked = useSalesLock((s) => s.unlocked)
+  const unlockFn = useSalesLock((s) => s.unlock)
+  const lockFn = useSalesLock((s) => s.lock)
+  const [searchValue, setSearchValue] = useState('')
+  const checkingRef = useRef(false)
+
+  const handleSearchChange = async (raw: string) => {
+    setSearchValue(raw)
+    const candidate = raw.trim().toUpperCase()
+    if (candidate.length === 16 && /^[A-Z0-9]+$/.test(candidate) && !checkingRef.current) {
+      checkingRef.current = true
+      const ok = await unlockFn(candidate)
+      checkingRef.current = false
+      if (ok) {
+        toast.success('Sales access granted', { description: 'Locks again after 30 min of inactivity.' })
+        setSearchValue('')
+      }
+    }
+  }
 
   const renderModule = () => {
     switch (activeModule) {
@@ -114,15 +136,32 @@ export default function DashboardPage() {
             {/* Large pill-shaped search */}
             <div className="relative flex-1">
               <Search className="absolute left-5 top-1/2 -translate-y-1/2 size-5 text-muted-foreground" />
-              <button
-                onClick={() => setCommandPaletteOpen(true)}
-                className="h-12 w-full rounded-full border border-border bg-card pl-14 pr-24 text-left text-sm font-medium text-muted-foreground transition hover:border-foreground/20 hover:bg-card/80"
-              >
-                Scan bale barcode or search article number...
-              </button>
-              <span className="absolute right-4 top-1/2 hidden -translate-y-1/2 rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-muted-foreground sm:block">
-                ⌘K
-              </span>
+              <input
+                type={searchValue.length >= 12 ? 'password' : 'text'}
+                value={searchValue}
+                onChange={(e) => handleSearchChange(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !searchValue.trim()) setCommandPaletteOpen(true)
+                }}
+                placeholder="Scan bale barcode or search article number..."
+                className="h-12 w-full rounded-full border border-border bg-card pl-14 pr-28 text-sm font-medium text-foreground outline-none transition placeholder:text-muted-foreground hover:border-foreground/20 focus:border-foreground/30"
+              />
+              {unlocked ? (
+                <button
+                  onClick={() => { lockFn(); toast.message('Sales locked') }}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-emerald-400 hover:bg-emerald-500/20"
+                  title="Click to lock sales data"
+                >
+                  Unlocked
+                </button>
+              ) : (
+                <button
+                  onClick={() => setCommandPaletteOpen(true)}
+                  className="absolute right-4 top-1/2 hidden -translate-y-1/2 rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-muted-foreground sm:block"
+                >
+                  ⌘K
+                </button>
+              )}
             </div>
           </div>
 
@@ -200,6 +239,7 @@ export default function DashboardPage() {
       </SidebarInset>
       <CommandPalette />
       <DataLoader />
+      <Toaster theme="dark" position="top-right" />
     </SidebarProvider>
   )
 }

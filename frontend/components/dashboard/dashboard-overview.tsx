@@ -12,6 +12,8 @@ import realData from '@/lib/real-data.json'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { useSalesLock } from '@/lib/sales-lock'
+import { Lock } from 'lucide-react'
 
 interface Activity {
   id: number
@@ -24,6 +26,7 @@ interface Activity {
 
 export function DashboardOverview() {
   const { setActiveModule } = useAppStore()
+  const salesUnlocked = useSalesLock((s) => s.unlocked)
   const [pendingApprovals, setPendingApprovals] = useState(0)
   const [todaysSales, setTodaysSales] = useState({ count: 0, amount: 0 })
   const [balesScanned, setBalesScanned] = useState(0)
@@ -32,6 +35,18 @@ export function DashboardOverview() {
   const [aiAlerts, setAiAlerts] = useState<{ critical: number; warning: number; info: number }>({ critical: 0, warning: 0, info: 0 })
 
   useEffect(() => {
+    api.get('/notification-queue/pending').then((r) => {
+      setAiAlerts(r.data?.by_severity || { critical: 0, warning: 0, info: 0 })
+    }).catch(() => setAiAlerts({ critical: 1, warning: 2, info: 3 }))
+  }, [])
+
+  useEffect(() => {
+    if (!salesUnlocked) {
+      setPendingApprovals(0)
+      setTodaysSales({ count: 0, amount: 0 })
+      setBalesScanned(0)
+      return
+    }
     Promise.all([
       api.get('/sales/approval-stats').then((r) => setPendingApprovals(r.data?.pending || 0)).catch(() => {}),
       api.get('/sales/summary').then((r) => {
@@ -47,11 +62,8 @@ export function DashboardOverview() {
           amount: Math.round((todays.reduce((s: number, x: any) => s + (x.total_amount || 0), 0) || 1870000) / 100000),
         })
       }).catch(() => setTodaysSales({ count: 18, amount: 18.7 })),
-      api.get('/notification-queue/pending').then((r) => {
-        setAiAlerts(r.data?.by_severity || { critical: 0, warning: 0, info: 0 })
-      }).catch(() => setAiAlerts({ critical: 1, warning: 2, info: 3 })),
     ])
-  }, [])
+  }, [salesUnlocked])
 
   return (
     <div className="space-y-6 -mx-2">
@@ -95,12 +107,12 @@ export function DashboardOverview() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-sm font-medium text-muted-foreground">Today's sales</p>
-              <p className="mt-5 font-display-tight text-5xl text-foreground">
-                Rs {todaysSales.amount}L
+              <p className="mt-5 font-display-tight text-5xl text-foreground flex items-center gap-3">
+                {salesUnlocked ? `Rs ${todaysSales.amount}L` : <><Lock className="size-7 text-muted-foreground" /><span className="text-muted-foreground/60">— — —</span></>}
               </p>
             </div>
             <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-muted-foreground">
-              {todaysSales.count} invoices
+              {salesUnlocked ? `${todaysSales.count} invoices` : 'Locked'}
             </span>
           </div>
           <div className="mt-8 flex items-center gap-2">
@@ -115,7 +127,9 @@ export function DashboardOverview() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-sm font-medium text-muted-foreground">Pending approvals</p>
-              <p className="mt-5 font-display-tight text-5xl text-foreground">{pendingApprovals}</p>
+              <p className="mt-5 font-display-tight text-5xl text-foreground flex items-center gap-3">
+                {salesUnlocked ? pendingApprovals : <><Lock className="size-7 text-muted-foreground" /><span className="text-muted-foreground/60">—</span></>}
+              </p>
             </div>
             <button
               onClick={() => setActiveModule('sales')}
