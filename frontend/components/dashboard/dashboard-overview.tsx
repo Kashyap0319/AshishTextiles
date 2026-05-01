@@ -102,46 +102,48 @@ export function DashboardOverview() {
           </svg>
         </Card>
 
-        {/* Today's Sales */}
-        <Card className="rounded-bento border-border bg-card p-6 shadow-bento-soft">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <p className="text-sm font-medium text-muted-foreground">Today's sales</p>
-              <p className="mt-5 font-display-tight text-5xl text-foreground flex items-center gap-3">
-                {salesUnlocked ? `Rs ${todaysSales.amount}L` : <><Lock className="size-7 text-muted-foreground" /><span className="text-muted-foreground/60">— — —</span></>}
-              </p>
+        {/* Today's Sales — only when unlocked */}
+        {salesUnlocked && (
+          <Card className="rounded-bento border-border bg-card p-6 shadow-bento-soft">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-sm font-medium text-muted-foreground">Today's sales</p>
+                <p className="mt-5 font-display-tight text-5xl text-foreground">
+                  Rs {todaysSales.amount}L
+                </p>
+              </div>
+              <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-muted-foreground">
+                {todaysSales.count} invoices
+              </span>
             </div>
-            <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-muted-foreground">
-              {salesUnlocked ? `${todaysSales.count} invoices` : 'Locked'}
-            </span>
-          </div>
-          <div className="mt-8 flex items-center gap-2">
-            <span className="h-1.5 flex-1 rounded-full bg-foreground" />
-            <span className="h-1.5 flex-[0.7] rounded-full bg-muted-foreground/40" />
-            <span className="h-1.5 flex-[0.45] rounded-full bg-muted-foreground/20" />
-          </div>
-        </Card>
+            <div className="mt-8 flex items-center gap-2">
+              <span className="h-1.5 flex-1 rounded-full bg-foreground" />
+              <span className="h-1.5 flex-[0.7] rounded-full bg-muted-foreground/40" />
+              <span className="h-1.5 flex-[0.45] rounded-full bg-muted-foreground/20" />
+            </div>
+          </Card>
+        )}
 
-        {/* Pending Price Approvals — accent card */}
-        <Card className="rounded-bento border-2 border-foreground/10 bg-card p-6 shadow-bento-soft">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <p className="text-sm font-medium text-muted-foreground">Pending approvals</p>
-              <p className="mt-5 font-display-tight text-5xl text-foreground flex items-center gap-3">
-                {salesUnlocked ? pendingApprovals : <><Lock className="size-7 text-muted-foreground" /><span className="text-muted-foreground/60">—</span></>}
-              </p>
+        {/* Pending Price Approvals — only when unlocked */}
+        {salesUnlocked && (
+          <Card className="rounded-bento border-2 border-foreground/10 bg-card p-6 shadow-bento-soft">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-sm font-medium text-muted-foreground">Pending approvals</p>
+                <p className="mt-5 font-display-tight text-5xl text-foreground">{pendingApprovals}</p>
+              </div>
+              <button
+                onClick={() => setActiveModule('sales')}
+                className="rounded-full bg-foreground px-3 py-1 text-xs font-semibold text-background hover:bg-primary transition-colors"
+              >
+                Review
+              </button>
             </div>
-            <button
-              onClick={() => setActiveModule('sales')}
-              className="rounded-full bg-foreground px-3 py-1 text-xs font-semibold text-background hover:bg-primary transition-colors"
-            >
-              Review
-            </button>
-          </div>
-          <p className="mt-7 rounded-2xl border border-border bg-muted px-4 py-3 text-sm font-medium text-muted-foreground">
-            {pendingApprovals > 0 ? `${pendingApprovals} sale${pendingApprovals > 1 ? 's' : ''} await admin review` : 'All sales approved'}
-          </p>
-        </Card>
+            <p className="mt-7 rounded-2xl border border-border bg-muted px-4 py-3 text-sm font-medium text-muted-foreground">
+              {pendingApprovals > 0 ? `${pendingApprovals} sale${pendingApprovals > 1 ? 's' : ''} await admin review` : 'All sales approved'}
+            </p>
+          </Card>
+        )}
 
         {/* Bales Scanned Today */}
         <Card className="rounded-bento border-border bg-card p-6 shadow-bento-soft">
@@ -312,7 +314,8 @@ export function DashboardOverview() {
           </div>
         </Card>
 
-        {/* Approvals Queue / Price Desk */}
+        {/* Approvals Queue / Price Desk — only when unlocked */}
+        {salesUnlocked && (
         <Card className="rounded-bento border-border bg-muted p-8 shadow-bento-soft xl:col-span-5">
           <div className="flex items-start justify-between gap-5">
             <div>
@@ -332,6 +335,7 @@ export function DashboardOverview() {
             <ApprovalRow buyer="Prime Fabrics" tag="Approved" tagTone="success" detail="Cotton twill · Rs 112/kg accepted · dispatch note created." />
           </div>
         </Card>
+        )}
       </section>
     </div>
   )

@@ -15,6 +15,8 @@ interface Props {
   contents?: Record<number, string>
   onRackClick?: (rack: RackPosition) => void
   selectedRack?: number
+  /** When true, applies preview sizing (larger labels, no inner hall caption) */
+  compact?: boolean
 }
 
 const featureColor = {
@@ -25,7 +27,7 @@ const featureColor = {
   'shair-case': '#C89A4E',
 }
 
-export function FloorPlan({ hall, utilization = {}, contents = {}, onRackClick, selectedRack }: Props) {
+export function FloorPlan({ hall, utilization = {}, contents = {}, onRackClick, selectedRack, compact }: Props) {
   const [hovered, setHovered] = useState<number | null>(null)
 
   const rackColor = (num: number) => {
@@ -40,42 +42,47 @@ export function FloorPlan({ hall, utilization = {}, contents = {}, onRackClick, 
     <div className="relative w-full">
       <svg
         viewBox={`0 0 ${hall.width} ${hall.height}`}
-        className="w-full h-auto border border-border rounded-lg bg-[#FAF9F5] dark:bg-[#242320]"
-        style={{ maxHeight: '70vh' }}
+        className="w-full h-auto rounded-lg border border-border"
+        style={{
+          maxHeight: compact ? '320px' : '78vh',
+          background: 'linear-gradient(180deg, #FAF8F2 0%, #EFEAD9 100%)',
+        }}
       >
-        {/* Hall boundary */}
-        <motion.rect
+        <defs>
+          <pattern id={`grid-${hall.hall}`} width="5" height="5" patternUnits="userSpaceOnUse">
+            <path d="M 5 0 L 0 0 0 5" fill="none" stroke="currentColor" strokeWidth="0.08" className="text-foreground/15" />
+          </pattern>
+          {/* Vertical gradients for subtle 3D top-light */}
+          <linearGradient id={`rackGrad-empty-${hall.hall}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#E8E2D0" />
+            <stop offset="100%" stopColor="#C2BBA6" />
+          </linearGradient>
+          <linearGradient id={`rackGrad-low-${hall.hall}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#92A26B" />
+            <stop offset="100%" stopColor="#5D6A45" />
+          </linearGradient>
+          <linearGradient id={`rackGrad-mid-${hall.hall}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#D4A559" />
+            <stop offset="100%" stopColor="#9A7234" />
+          </linearGradient>
+          <linearGradient id={`rackGrad-full-${hall.hall}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#D26049" />
+            <stop offset="100%" stopColor="#9A3826" />
+          </linearGradient>
+        </defs>
+
+        {/* Floor with grid */}
+        <rect
           x={2}
           y={2}
           width={hall.width - 4}
           height={hall.height - 4}
-          fill="none"
+          fill={`url(#grid-${hall.hall})`}
           stroke="currentColor"
           strokeWidth={0.3}
-          className="text-border"
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{ duration: 1, ease: 'easeOut' }}
+          className="text-foreground/25"
+          rx={0.5}
         />
-
-        {/* Grid pattern (subtle) */}
-        <defs>
-          <pattern id={`grid-${hall.hall}`} width="5" height="5" patternUnits="userSpaceOnUse">
-            <path d="M 5 0 L 0 0 0 5" fill="none" stroke="currentColor" strokeWidth="0.08" className="text-muted-foreground/20" />
-          </pattern>
-        </defs>
-        <rect x={2} y={2} width={hall.width - 4} height={hall.height - 4} fill={`url(#grid-${hall.hall})`} />
-
-        {/* Hall label */}
-        <text
-          x={hall.width / 2}
-          y={hall.height - 3}
-          textAnchor="middle"
-          className="fill-muted-foreground"
-          style={{ fontSize: '2.5px', fontFamily: 'Instrument Serif, serif', fontStyle: 'italic' }}
-        >
-          {hall.label} · {hall.racks.length} racks
-        </text>
 
         {/* Features (pillars, stairs) */}
         {hall.features.map((f, i) => (
@@ -95,9 +102,9 @@ export function FloorPlan({ hall, utilization = {}, contents = {}, onRackClick, 
             {f.label && (
               <text
                 x={f.x + f.w / 2}
-                y={f.y + f.h / 2 + 0.5}
+                y={f.y + f.h / 2 + 0.7}
                 textAnchor="middle"
-                style={{ fontSize: '1.5px', fill: featureColor[f.type], fontStyle: 'italic' }}
+                style={{ fontSize: '2px', fill: featureColor[f.type], fontStyle: 'italic', fontWeight: 500 }}
               >
                 {f.label}
               </text>
@@ -111,55 +118,130 @@ export function FloorPlan({ hall, utilization = {}, contents = {}, onRackClick, 
             <circle cx={hall.entry.x} cy={hall.entry.y} r={1} fill="#C15F3C" />
             <text
               x={hall.entry.x + 2}
-              y={hall.entry.y + 0.5}
-              style={{ fontSize: '1.8px', fill: '#C15F3C', fontStyle: 'italic' }}
+              y={hall.entry.y + 0.6}
+              style={{ fontSize: '2.2px', fill: '#C15F3C', fontStyle: 'italic', fontWeight: 500 }}
             >
               {hall.entry.label || 'Entry'}
             </text>
           </g>
         )}
 
+        {/* Soft drop-shadows — drawn first so they sit under everything */}
+        {hall.racks.map((rack) => (
+          <rect
+            key={`sh-${rack.number}`}
+            x={rack.x + 0.18}
+            y={rack.y + 0.22}
+            width={rack.w}
+            height={rack.h}
+            fill="#000"
+            fillOpacity={0.14}
+            rx={0.35}
+            pointerEvents="none"
+          />
+        ))}
+
         {/* Racks */}
         {hall.racks.map((rack, i) => {
-          const color = rackColor(rack.number)
+          const util = utilization[rack.number] ?? 50
+          const gradId =
+            util > 90 ? `rackGrad-full-${hall.hall}` :
+            util > 70 ? `rackGrad-mid-${hall.hall}` :
+            util > 30 ? `rackGrad-low-${hall.hall}` :
+            `rackGrad-empty-${hall.hall}`
+          const strokeShade =
+            util > 90 ? '#7A2D1F' :
+            util > 70 ? '#7A5A2A' :
+            util > 30 ? '#414B30' :
+            '#8A8472'
+          const bottomShade =
+            util > 90 ? '#7A2D1F' :
+            util > 70 ? '#7A5A2A' :
+            util > 30 ? '#414B30' :
+            '#9D9682'
+
           const isHovered = hovered === rack.number
           const isSelected = selectedRack === rack.number
           const isOptional = rack.note?.includes('sometimes')
+          // Cap depth so it never bleeds into the next rack visually
+          const depth = Math.min(rack.h * 0.18, 0.4)
 
           return (
             <motion.g
               key={rack.number}
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: i * 0.01, ease: 'easeOut' }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: i * 0.005, ease: 'easeOut' }}
               onMouseEnter={() => setHovered(rack.number)}
               onMouseLeave={() => setHovered(null)}
               onClick={() => onRackClick?.(rack)}
               style={{ cursor: onRackClick ? 'pointer' : 'default' }}
             >
+              {/* Bottom edge (creates depth without overlapping neighbors) */}
+              <rect
+                x={rack.x}
+                y={rack.y + rack.h - depth}
+                width={rack.w}
+                height={depth}
+                fill={bottomShade}
+                fillOpacity={0.55}
+                rx={0.35}
+              />
+              {/* Top face */}
               <rect
                 x={rack.x}
                 y={rack.y}
                 width={rack.w}
-                height={rack.h}
-                fill={color.fill}
-                fillOpacity={isHovered || isSelected ? 0.95 : color.alpha}
-                stroke={isSelected ? '#C15F3C' : color.stroke}
-                strokeWidth={isSelected ? 0.5 : 0.2}
-                strokeDasharray={isOptional ? '0.5 0.3' : '0'}
-                rx={0.3}
-                className="transition-all"
+                height={rack.h - depth + 0.05}
+                fill={`url(#${gradId})`}
+                stroke={isSelected ? '#C15F3C' : strokeShade}
+                strokeWidth={isSelected ? 0.45 : 0.18}
+                strokeOpacity={0.7}
+                strokeDasharray={isOptional ? '0.5 0.35' : '0'}
+                rx={0.35}
+                style={{
+                  filter: isHovered || isSelected ? 'brightness(1.08)' : 'none',
+                  transition: 'filter 0.15s ease-out',
+                }}
               />
+              {/* Top highlight — a thin lighter band, only on larger racks */}
+              {rack.h > 3 && (
+                <rect
+                  x={rack.x + 0.25}
+                  y={rack.y + 0.2}
+                  width={rack.w - 0.5}
+                  height={0.5}
+                  fill="white"
+                  fillOpacity={0.22}
+                  rx={0.2}
+                  pointerEvents="none"
+                />
+              )}
+              {/* Selection ring */}
+              {isSelected && (
+                <rect
+                  x={rack.x - 0.4}
+                  y={rack.y - 0.4}
+                  width={rack.w + 0.8}
+                  height={rack.h + 0.8}
+                  fill="none"
+                  stroke="#C15F3C"
+                  strokeWidth={0.25}
+                  rx={0.6}
+                  pointerEvents="none"
+                />
+              )}
               <text
                 x={rack.x + rack.w / 2}
-                y={rack.y + rack.h / 2 + 0.7}
+                y={rack.y + (rack.h - depth) / 2 + 0.75}
                 textAnchor="middle"
                 style={{
-                  fontSize: rack.w > 5 ? '1.8px' : '1.4px',
-                  fill: isHovered || isSelected ? '#FAF9F5' : '#1F1E1C',
-                  fontWeight: 500,
+                  fontSize: rack.w > 5 ? '2px' : '1.5px',
+                  fill: util > 30 ? '#FAF9F5' : '#2A2725',
+                  fontWeight: 600,
                   pointerEvents: 'none',
                   fontVariantNumeric: 'tabular-nums',
+                  letterSpacing: '-0.05px',
                 }}
               >
                 {rack.number}

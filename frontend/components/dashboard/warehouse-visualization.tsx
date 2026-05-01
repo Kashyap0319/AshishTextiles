@@ -216,28 +216,28 @@ export function WarehouseVisualization() {
             </div>
           ) : (
             /* All halls on floor — grid preview */
-            <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="grid gap-5 md:grid-cols-1 lg:grid-cols-2">
               {hallsOnFloor.map((hall) => (
                 <motion.div key={hall.hall} variants={staggerItem}>
                   <Card
-                    className="cursor-pointer hover:shadow-lg transition-shadow overflow-hidden"
+                    className="cursor-pointer hover:shadow-xl hover:-translate-y-0.5 transition-all overflow-hidden"
                     onClick={() => setSelectedHall(hall.hall)}
                   >
-                    <CardContent className="p-3">
-                      <div className="flex items-center justify-between mb-2">
-                        <div className="flex items-center gap-2">
-                          <Warehouse className="size-4 text-primary" />
-                          <span className="font-serif text-base">{hall.label}</span>
+                    <CardContent className="p-5">
+                      <div className="flex items-center justify-between mb-3">
+                        <div className="flex items-center gap-2.5">
+                          <Warehouse className="size-5 text-primary" />
+                          <span className="font-serif text-xl">{hall.label}</span>
                         </div>
-                        <Badge variant="outline" className="text-[10px]">{hall.racks.length}</Badge>
+                        <Badge variant="outline" className="text-xs">{hall.racks.length} racks</Badge>
                       </div>
-                      <p className="text-[10px] text-muted-foreground mb-2">
+                      <p className="text-xs text-muted-foreground mb-3">
                         {hallDescriptions[hall.label] || 'Warehouse section'}
                       </p>
                       <div className="pointer-events-none">
-                        <FloorPlan hall={hall} utilization={utilizationMap} contents={goodsByRack} />
+                        <FloorPlan hall={hall} utilization={utilizationMap} contents={goodsByRack} compact />
                       </div>
-                      <div className="flex items-center gap-1 mt-2 text-xs text-primary">
+                      <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
                         Click to expand <ChevronRight className="size-3" />
                       </div>
                     </CardContent>

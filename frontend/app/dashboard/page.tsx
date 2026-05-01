@@ -99,7 +99,9 @@ export default function DashboardPage() {
       const ok = await unlockFn(candidate)
       checkingRef.current = false
       if (ok) {
-        toast.success('Sales access granted', { description: 'Locks again after 30 min of inactivity.' })
+        setTimeout(() => {
+          toast.success('Sales access granted', { description: 'Locks again after 30 min of inactivity.' })
+        }, 0)
         setSearchValue('')
       }
     }
@@ -148,7 +150,7 @@ export default function DashboardPage() {
               />
               {unlocked ? (
                 <button
-                  onClick={() => { lockFn(); toast.message('Sales locked') }}
+                  onClick={() => { lockFn(); setTimeout(() => toast.message('Sales locked'), 0) }}
                   className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-emerald-400 hover:bg-emerald-500/20"
                   title="Click to lock sales data"
                 >

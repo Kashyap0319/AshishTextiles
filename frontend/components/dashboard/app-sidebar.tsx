@@ -7,6 +7,7 @@ import {
 } from 'lucide-react'
 import realData from '@/lib/real-data.json'
 import { useAppStore } from '@/lib/store'
+import { useSalesLock } from '@/lib/sales-lock'
 import useAuth from '@/hooks/use-auth'
 import {
   Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent,
@@ -47,10 +48,14 @@ const roleAccess: Record<string, string[]> = {
 export function AppSidebar() {
   const { activeModule, setActiveModule, setCommandPaletteOpen, currentUser } = useAppStore()
   const { user, logout } = useAuth()
+  const salesUnlocked = useSalesLock((s) => s.unlocked)
 
   const role = user?.role || currentUser.role || 'owner'
   const allowed = roleAccess[role] || roleAccess['employee']
-  const canAccess = (id: string) => allowed.includes('*') || allowed.includes(id)
+  const canAccess = (id: string) => {
+    if (id === 'sales' && !salesUnlocked) return false
+    return allowed.includes('*') || allowed.includes(id)
+  }
 
   const displayName = user?.name || currentUser.name
   const displayRole = user?.role || currentUser.role
